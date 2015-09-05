@@ -120,7 +120,7 @@ AutoComPaste.Interface = (function () {
               iface._createWindowForText(text_title);
             }
           } else {
-            console.log("This text " + currentText + "isn't in the windows to open list: " + windows_to_open);
+            //console.log("This text " + currentText + "isn't in the windows to open list: " + windows_to_open);
           }
         }
 
