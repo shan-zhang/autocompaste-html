@@ -3,67 +3,7 @@
 
     [
         {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                1
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "domestic cat"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                3
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "characterised by feathers"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                5
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "walk backwards"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                1
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "They are often called housecats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                3
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Birds are social creatures which is why they travel in a flock."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                5
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Kangaroos have very powerful legs and can be dangerous at times."
-        },
-        {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "windows": 1,
             "windows_to_open": [
                 1
@@ -73,7 +13,7 @@
             "stimuli": "The domestic cat is a small, usually furry, domesticated, and carnivorous mammal. They are often called housecats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines."
         },
         {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "windows": 1,
             "windows_to_open": [
                 3
@@ -83,307 +23,10 @@
             "stimuli": "Birds are a group of endothermic vertebrates, characterised by feathers, a beak with no teeth, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a lightweight but strong skeleton. There are over 10,000 living species of bird on Earth and they live on all continents including the Arctic and Antarctica. Birds are social creatures which is why they travel in a flock."
         },
         {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "windows": 1,
             "windows_to_open": [
                 5
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Kangaroos are marsupial animals that are found in Australia as well as New Guinea. Kangaroos cannot walk backwards. Kangaroos have very powerful legs and can be dangerous at times."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                1,
-                3,
-                5,
-                6,
-                7
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "often called housecats"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                1,
-                3,
-                5,
-                6,
-                7
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "hard-shelled eggs"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                1,
-                3,
-                5,
-                6,
-                7
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "marsupial animals"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                1,
-                3,
-                5,
-                6,
-                7
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "They are often called housecats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                1,
-                3,
-                5,
-                6,
-                7
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Birds are a group of endothermic vertebrates, characterised by feathers, a beak with no teeth, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a lightweight but strong skeleton."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                1,
-                3,
-                5,
-                6,
-                7
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Kangaroos cannot walk backwards."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                1,
-                3,
-                5,
-                6,
-                7
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "The domestic cat is a small, usually furry, domesticated, and carnivorous mammal. They are often called housecats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                1,
-                3,
-                5,
-                6,
-                7
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Birds are a group of endothermic vertebrates, characterised by feathers, a beak with no teeth, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a lightweight but strong skeleton. There are over 10,000 living species of bird on Earth and they live on all continents including the Arctic and Antarctica. Birds are social creatures which is why they travel in a flock."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                1,
-                3,
-                5,
-                6,
-                7
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Kangaroos are marsupial animals that are found in Australia as well as New Guinea. Kangaroos cannot walk backwards. Kangaroos have very powerful legs and can be dangerous at times."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "domestic cat"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "lightweight but strong skeleton"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "walk backwards"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "The domestic cat is a small, usually furry, domesticated, and carnivorous mammal."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Birds are a group of endothermic vertebrates, characterised by feathers, a beak with no teeth, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a lightweight but strong skeleton."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Kangaroos have very powerful legs and can be dangerous at times."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "The domestic cat is a small, usually furry, domesticated, and carnivorous mammal. They are often called housecats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Birds are a group of endothermic vertebrates, characterised by feathers, a beak with no teeth, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a lightweight but strong skeleton. There are over 10,000 living species of bird on Earth and they live on all continents including the Arctic and Antarctica. Birds are social creatures which is why they travel in a flock."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
             ],
             "granularity": "paragraph",
             "data_file": "data/texts.json",
@@ -397,7 +40,7 @@
             ],
             "granularity": "phrase",
             "data_file": "data/texts.json",
-            "stimuli": "felids and felines"
+            "stimuli": "domestic cat"
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -427,7 +70,7 @@
             ],
             "granularity": "sentence",
             "data_file": "data/texts.json",
-            "stimuli": "The domestic cat is a small, usually furry, domesticated, and carnivorous mammal."
+            "stimuli": "They are often called housecats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines."
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -447,13 +90,17 @@
             ],
             "granularity": "sentence",
             "data_file": "data/texts.json",
-            "stimuli": "Kangaroos are marsupial animals that are found in Australia as well as New Guinea."
+            "stimuli": "Kangaroos cannot walk backwards."
         },
         {
             "technique": "AUTOCOMPASTE",
-            "windows": 1,
+            "windows": 5,
             "windows_to_open": [
-                1
+                1,
+                3,
+                5,
+                6,
+                7
             ],
             "granularity": "paragraph",
             "data_file": "data/texts.json",
@@ -461,9 +108,13 @@
         },
         {
             "technique": "AUTOCOMPASTE",
-            "windows": 1,
+            "windows": 5,
             "windows_to_open": [
-                3
+                1,
+                3,
+                5,
+                6,
+                7
             ],
             "granularity": "paragraph",
             "data_file": "data/texts.json",
@@ -471,9 +122,13 @@
         },
         {
             "technique": "AUTOCOMPASTE",
-            "windows": 1,
+            "windows": 5,
             "windows_to_open": [
-                5
+                1,
+                3,
+                5,
+                6,
+                7
             ],
             "granularity": "paragraph",
             "data_file": "data/texts.json",
@@ -491,7 +146,7 @@
             ],
             "granularity": "phrase",
             "data_file": "data/texts.json",
-            "stimuli": "felids and felines"
+            "stimuli": "often called housecats"
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -505,7 +160,7 @@
             ],
             "granularity": "phrase",
             "data_file": "data/texts.json",
-            "stimuli": "hard-shelled eggs"
+            "stimuli": "characterised by feathers"
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -519,7 +174,7 @@
             ],
             "granularity": "phrase",
             "data_file": "data/texts.json",
-            "stimuli": "marsupial animals"
+            "stimuli": "very powerful legs"
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -547,7 +202,7 @@
             ],
             "granularity": "sentence",
             "data_file": "data/texts.json",
-            "stimuli": "Birds are a group of endothermic vertebrates, characterised by feathers, a beak with no teeth, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a lightweight but strong skeleton."
+            "stimuli": "Birds are social creatures which is why they travel in a flock."
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -561,17 +216,22 @@
             ],
             "granularity": "sentence",
             "data_file": "data/texts.json",
-            "stimuli": "Kangaroos are marsupial animals that are found in Australia as well as New Guinea."
+            "stimuli": "Kangaroos have very powerful legs and can be dangerous at times."
         },
         {
             "technique": "AUTOCOMPASTE",
-            "windows": 5,
+            "windows": 10,
             "windows_to_open": [
                 1,
+                2,
                 3,
+                4,
                 5,
                 6,
-                7
+                7,
+                8,
+                9,
+                10
             ],
             "granularity": "paragraph",
             "data_file": "data/texts.json",
@@ -579,13 +239,18 @@
         },
         {
             "technique": "AUTOCOMPASTE",
-            "windows": 5,
+            "windows": 10,
             "windows_to_open": [
                 1,
+                2,
                 3,
+                4,
                 5,
                 6,
-                7
+                7,
+                8,
+                9,
+                10
             ],
             "granularity": "paragraph",
             "data_file": "data/texts.json",
@@ -593,13 +258,18 @@
         },
         {
             "technique": "AUTOCOMPASTE",
-            "windows": 5,
+            "windows": 10,
             "windows_to_open": [
                 1,
+                2,
                 3,
+                4,
                 5,
                 6,
-                7
+                7,
+                8,
+                9,
+                10
             ],
             "granularity": "paragraph",
             "data_file": "data/texts.json",
@@ -660,7 +330,7 @@
             ],
             "granularity": "phrase",
             "data_file": "data/texts.json",
-            "stimuli": "walk backwards"
+            "stimuli": "very powerful legs"
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -717,10 +387,226 @@
             ],
             "granularity": "sentence",
             "data_file": "data/texts.json",
+            "stimuli": "Kangaroos are marsupial animals that are found in Australia as well as New Guinea."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                1
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "The domestic cat is a small, usually furry, domesticated, and carnivorous mammal. They are often called housecats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                3
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "Birds are a group of endothermic vertebrates, characterised by feathers, a beak with no teeth, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a lightweight but strong skeleton. There are over 10,000 living species of bird on Earth and they live on all continents including the Arctic and Antarctica. Birds are social creatures which is why they travel in a flock."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                5
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "Kangaroos are marsupial animals that are found in Australia as well as New Guinea. Kangaroos cannot walk backwards. Kangaroos have very powerful legs and can be dangerous at times."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                1
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "often called housecats"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                3
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "lightweight but strong skeleton"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                5
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "very powerful legs"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                1
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "They are often called housecats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                3
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "There are over 10,000 living species of bird on Earth and they live on all continents including the Arctic and Antarctica."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                5
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "Kangaroos have very powerful legs and can be dangerous at times."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 5,
+            "windows_to_open": [
+                1,
+                3,
+                5,
+                6,
+                7
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "The domestic cat is a small, usually furry, domesticated, and carnivorous mammal. They are often called housecats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 5,
+            "windows_to_open": [
+                1,
+                3,
+                5,
+                6,
+                7
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "Birds are a group of endothermic vertebrates, characterised by feathers, a beak with no teeth, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a lightweight but strong skeleton. There are over 10,000 living species of bird on Earth and they live on all continents including the Arctic and Antarctica. Birds are social creatures which is why they travel in a flock."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 5,
+            "windows_to_open": [
+                1,
+                3,
+                5,
+                6,
+                7
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "Kangaroos are marsupial animals that are found in Australia as well as New Guinea. Kangaroos cannot walk backwards. Kangaroos have very powerful legs and can be dangerous at times."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 5,
+            "windows_to_open": [
+                1,
+                3,
+                5,
+                6,
+                7
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "domestic cat"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 5,
+            "windows_to_open": [
+                1,
+                3,
+                5,
+                6,
+                7
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "hard-shelled eggs"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 5,
+            "windows_to_open": [
+                1,
+                3,
+                5,
+                6,
+                7
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "very powerful legs"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 5,
+            "windows_to_open": [
+                1,
+                3,
+                5,
+                6,
+                7
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "They are often called housecats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 5,
+            "windows_to_open": [
+                1,
+                3,
+                5,
+                6,
+                7
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "There are over 10,000 living species of bird on Earth and they live on all continents including the Arctic and Antarctica."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 5,
+            "windows_to_open": [
+                1,
+                3,
+                5,
+                6,
+                7
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
             "stimuli": "Kangaroos cannot walk backwards."
         },
         {
-            "technique": "AUTOCOMPASTE",
+            "technique": "TRADITIONAL",
             "windows": 10,
             "windows_to_open": [
                 1,
@@ -739,7 +625,7 @@
             "stimuli": "The domestic cat is a small, usually furry, domesticated, and carnivorous mammal. They are often called housecats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines."
         },
         {
-            "technique": "AUTOCOMPASTE",
+            "technique": "TRADITIONAL",
             "windows": 10,
             "windows_to_open": [
                 1,
@@ -758,7 +644,7 @@
             "stimuli": "Birds are a group of endothermic vertebrates, characterised by feathers, a beak with no teeth, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a lightweight but strong skeleton. There are over 10,000 living species of bird on Earth and they live on all continents including the Arctic and Antarctica. Birds are social creatures which is why they travel in a flock."
         },
         {
-            "technique": "AUTOCOMPASTE",
+            "technique": "TRADITIONAL",
             "windows": 10,
             "windows_to_open": [
                 1,
@@ -778,6 +664,150 @@
         },
         {
             "technique": "TRADITIONAL",
+            "windows": 10,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "domestic cat"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 10,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "hard-shelled eggs"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 10,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "very powerful legs"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 10,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "They are often called housecats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 10,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "Birds are social creatures which is why they travel in a flock."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 10,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "Kangaroos are marsupial animals that are found in Australia as well as New Guinea."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                2
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "The domestic dog is a domesticated canid which has been selectively bred for millennia for various behaviors, sensory capabilities, and physical attributes. All dogs, regardless of breed, are direct descendants of wolves and technically of the same species."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                4
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "Rabbits are affectionate social animals that enjoy the company of other rabbits. Rabbits stand upright on their hind legs to give themselves a better vantage point to look for predators. They alert other rabbits to the presence of danger by thumping their hind legs."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                7
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "Frogs are amphibians. They lay their eggs in water. The eggs hatch into a tadpole which lives in water until it metamorphoses into an adult frog. Instead of drinking water, frogs soak it into their body through their skin."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
             "windows": 1,
             "windows_to_open": [
                 2
@@ -787,37 +817,37 @@
             "stimuli": "selectively bred for millennia"
         },
         {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "windows": 1,
             "windows_to_open": [
                 4
             ],
             "granularity": "phrase",
             "data_file": "data/texts.json",
-            "stimuli": "thumping their hind legs"
+            "stimuli": "presence of danger"
         },
         {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "windows": 1,
             "windows_to_open": [
                 7
             ],
             "granularity": "phrase",
             "data_file": "data/texts.json",
-            "stimuli": "lay their eggs"
+            "stimuli": "metamorphoses into an adult"
         },
         {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "windows": 1,
             "windows_to_open": [
                 2
             ],
             "granularity": "sentence",
             "data_file": "data/texts.json",
-            "stimuli": "The domestic dog is a domesticated canid which has been selectively bred for millennia for various behaviors, sensory capabilities, and physical attributes."
+            "stimuli": "All dogs, regardless of breed, are direct descendants of wolves and technically of the same species."
         },
         {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "windows": 1,
             "windows_to_open": [
                 4
@@ -827,10 +857,307 @@
             "stimuli": "Rabbits stand upright on their hind legs to give themselves a better vantage point to look for predators."
         },
         {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "windows": 1,
             "windows_to_open": [
                 7
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "Instead of drinking water, frogs soak it into their body through their skin."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 5,
+            "windows_to_open": [
+                2,
+                4,
+                7,
+                8,
+                9
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "The domestic dog is a domesticated canid which has been selectively bred for millennia for various behaviors, sensory capabilities, and physical attributes. All dogs, regardless of breed, are direct descendants of wolves and technically of the same species."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 5,
+            "windows_to_open": [
+                2,
+                4,
+                7,
+                8,
+                9
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "Rabbits are affectionate social animals that enjoy the company of other rabbits. Rabbits stand upright on their hind legs to give themselves a better vantage point to look for predators. They alert other rabbits to the presence of danger by thumping their hind legs."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 5,
+            "windows_to_open": [
+                2,
+                4,
+                7,
+                8,
+                9
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "Frogs are amphibians. They lay their eggs in water. The eggs hatch into a tadpole which lives in water until it metamorphoses into an adult frog. Instead of drinking water, frogs soak it into their body through their skin."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 5,
+            "windows_to_open": [
+                2,
+                4,
+                7,
+                8,
+                9
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "selectively bred for millennia"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 5,
+            "windows_to_open": [
+                2,
+                4,
+                7,
+                8,
+                9
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "company of other rabbits"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 5,
+            "windows_to_open": [
+                2,
+                4,
+                7,
+                8,
+                9
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "metamorphoses into an adult"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 5,
+            "windows_to_open": [
+                2,
+                4,
+                7,
+                8,
+                9
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "The domestic dog is a domesticated canid which has been selectively bred for millennia for various behaviors, sensory capabilities, and physical attributes."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 5,
+            "windows_to_open": [
+                2,
+                4,
+                7,
+                8,
+                9
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "Rabbits stand upright on their hind legs to give themselves a better vantage point to look for predators."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 5,
+            "windows_to_open": [
+                2,
+                4,
+                7,
+                8,
+                9
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "Instead of drinking water, frogs soak it into their body through their skin."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 10,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "The domestic dog is a domesticated canid which has been selectively bred for millennia for various behaviors, sensory capabilities, and physical attributes. All dogs, regardless of breed, are direct descendants of wolves and technically of the same species."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 10,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "Rabbits are affectionate social animals that enjoy the company of other rabbits. Rabbits stand upright on their hind legs to give themselves a better vantage point to look for predators. They alert other rabbits to the presence of danger by thumping their hind legs."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 10,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "Frogs are amphibians. They lay their eggs in water. The eggs hatch into a tadpole which lives in water until it metamorphoses into an adult frog. Instead of drinking water, frogs soak it into their body through their skin."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 10,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "domestic dog"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 10,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "thumping their hind legs"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 10,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "lay their eggs"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 10,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "All dogs, regardless of breed, are direct descendants of wolves and technically of the same species."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 10,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "They alert other rabbits to the presence of danger by thumping their hind legs."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 10,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
             ],
             "granularity": "sentence",
             "data_file": "data/texts.json",
@@ -868,41 +1195,29 @@
         },
         {
             "technique": "TRADITIONAL",
-            "windows": 5,
+            "windows": 1,
             "windows_to_open": [
-                2,
-                4,
-                7,
-                8,
-                9
+                2
             ],
             "granularity": "phrase",
             "data_file": "data/texts.json",
-            "stimuli": "direct descendants of wolves"
+            "stimuli": "domestic dog"
         },
         {
             "technique": "TRADITIONAL",
-            "windows": 5,
+            "windows": 1,
             "windows_to_open": [
-                2,
-                4,
-                7,
-                8,
-                9
+                4
             ],
             "granularity": "phrase",
             "data_file": "data/texts.json",
-            "stimuli": "thumping their hind legs"
+            "stimuli": "presence of danger"
         },
         {
             "technique": "TRADITIONAL",
-            "windows": 5,
+            "windows": 1,
             "windows_to_open": [
-                2,
-                4,
-                7,
-                8,
-                9
+                7
             ],
             "granularity": "phrase",
             "data_file": "data/texts.json",
@@ -910,27 +1225,19 @@
         },
         {
             "technique": "TRADITIONAL",
-            "windows": 5,
+            "windows": 1,
             "windows_to_open": [
-                2,
-                4,
-                7,
-                8,
-                9
+                2
             ],
             "granularity": "sentence",
             "data_file": "data/texts.json",
-            "stimuli": "All dogs, regardless of breed, are direct descendants of wolves and technically of the same species."
+            "stimuli": "The domestic dog is a domesticated canid which has been selectively bred for millennia for various behaviors, sensory capabilities, and physical attributes."
         },
         {
             "technique": "TRADITIONAL",
-            "windows": 5,
+            "windows": 1,
             "windows_to_open": [
-                2,
-                4,
-                7,
-                8,
-                9
+                4
             ],
             "granularity": "sentence",
             "data_file": "data/texts.json",
@@ -938,13 +1245,9 @@
         },
         {
             "technique": "TRADITIONAL",
-            "windows": 5,
+            "windows": 1,
             "windows_to_open": [
-                2,
-                4,
-                7,
-                8,
-                9
+                7
             ],
             "granularity": "sentence",
             "data_file": "data/texts.json",
@@ -987,6 +1290,147 @@
                 7,
                 8,
                 9
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "Frogs are amphibians. They lay their eggs in water. The eggs hatch into a tadpole which lives in water until it metamorphoses into an adult frog. Instead of drinking water, frogs soak it into their body through their skin."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 5,
+            "windows_to_open": [
+                2,
+                4,
+                7,
+                8,
+                9
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "direct descendants of wolves"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 5,
+            "windows_to_open": [
+                2,
+                4,
+                7,
+                8,
+                9
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "presence of danger"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 5,
+            "windows_to_open": [
+                2,
+                4,
+                7,
+                8,
+                9
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "lay their eggs"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 5,
+            "windows_to_open": [
+                2,
+                4,
+                7,
+                8,
+                9
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "The domestic dog is a domesticated canid which has been selectively bred for millennia for various behaviors, sensory capabilities, and physical attributes."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 5,
+            "windows_to_open": [
+                2,
+                4,
+                7,
+                8,
+                9
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "Rabbits stand upright on their hind legs to give themselves a better vantage point to look for predators."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 5,
+            "windows_to_open": [
+                2,
+                4,
+                7,
+                8,
+                9
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "Frogs are amphibians."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 10,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "The domestic dog is a domesticated canid which has been selectively bred for millennia for various behaviors, sensory capabilities, and physical attributes. All dogs, regardless of breed, are direct descendants of wolves and technically of the same species."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 10,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "Rabbits are affectionate social animals that enjoy the company of other rabbits. Rabbits stand upright on their hind legs to give themselves a better vantage point to look for predators. They alert other rabbits to the presence of danger by thumping their hind legs."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 10,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
             ],
             "granularity": "paragraph",
             "data_file": "data/texts.json",
@@ -1066,7 +1510,7 @@
             ],
             "granularity": "sentence",
             "data_file": "data/texts.json",
-            "stimuli": "All dogs, regardless of breed, are direct descendants of wolves and technically of the same species."
+            "stimuli": "The domestic dog is a domesticated canid which has been selectively bred for millennia for various behaviors, sensory capabilities, and physical attributes."
         },
         {
             "technique": "TRADITIONAL",
@@ -1104,514 +1548,10 @@
             ],
             "granularity": "sentence",
             "data_file": "data/texts.json",
-            "stimuli": "The eggs hatch into a tadpole which lives in water until it metamorphoses into an adult frog."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "The domestic dog is a domesticated canid which has been selectively bred for millennia for various behaviors, sensory capabilities, and physical attributes. All dogs, regardless of breed, are direct descendants of wolves and technically of the same species."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Rabbits are affectionate social animals that enjoy the company of other rabbits. Rabbits stand upright on their hind legs to give themselves a better vantage point to look for predators. They alert other rabbits to the presence of danger by thumping their hind legs."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Frogs are amphibians. They lay their eggs in water. The eggs hatch into a tadpole which lives in water until it metamorphoses into an adult frog. Instead of drinking water, frogs soak it into their body through their skin."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                2
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "selectively bred for millennia"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                4
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "company of other rabbits"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                7
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "lay their eggs"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                2
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "All dogs, regardless of breed, are direct descendants of wolves and technically of the same species."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                4
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Rabbits stand upright on their hind legs to give themselves a better vantage point to look for predators."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                7
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
             "stimuli": "Frogs are amphibians."
         },
         {
             "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                2
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "The domestic dog is a domesticated canid which has been selectively bred for millennia for various behaviors, sensory capabilities, and physical attributes. All dogs, regardless of breed, are direct descendants of wolves and technically of the same species."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                4
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Rabbits are affectionate social animals that enjoy the company of other rabbits. Rabbits stand upright on their hind legs to give themselves a better vantage point to look for predators. They alert other rabbits to the presence of danger by thumping their hind legs."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                7
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Frogs are amphibians. They lay their eggs in water. The eggs hatch into a tadpole which lives in water until it metamorphoses into an adult frog. Instead of drinking water, frogs soak it into their body through their skin."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                2,
-                4,
-                7,
-                8,
-                9
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "direct descendants of wolves"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                2,
-                4,
-                7,
-                8,
-                9
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "thumping their hind legs"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                2,
-                4,
-                7,
-                8,
-                9
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "metamorphoses into an adult"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                2,
-                4,
-                7,
-                8,
-                9
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "The domestic dog is a domesticated canid which has been selectively bred for millennia for various behaviors, sensory capabilities, and physical attributes."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                2,
-                4,
-                7,
-                8,
-                9
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "They alert other rabbits to the presence of danger by thumping their hind legs."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                2,
-                4,
-                7,
-                8,
-                9
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "They lay their eggs in water."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                2,
-                4,
-                7,
-                8,
-                9
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "The domestic dog is a domesticated canid which has been selectively bred for millennia for various behaviors, sensory capabilities, and physical attributes. All dogs, regardless of breed, are direct descendants of wolves and technically of the same species."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                2,
-                4,
-                7,
-                8,
-                9
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Rabbits are affectionate social animals that enjoy the company of other rabbits. Rabbits stand upright on their hind legs to give themselves a better vantage point to look for predators. They alert other rabbits to the presence of danger by thumping their hind legs."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                2,
-                4,
-                7,
-                8,
-                9
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Frogs are amphibians. They lay their eggs in water. The eggs hatch into a tadpole which lives in water until it metamorphoses into an adult frog. Instead of drinking water, frogs soak it into their body through their skin."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "selectively bred for millennia"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "thumping their hind legs"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "metamorphoses into an adult"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "The domestic dog is a domesticated canid which has been selectively bred for millennia for various behaviors, sensory capabilities, and physical attributes."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Rabbits are affectionate social animals that enjoy the company of other rabbits."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Frogs are amphibians."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "The domestic dog is a domesticated canid which has been selectively bred for millennia for various behaviors, sensory capabilities, and physical attributes. All dogs, regardless of breed, are direct descendants of wolves and technically of the same species."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Rabbits are affectionate social animals that enjoy the company of other rabbits. Rabbits stand upright on their hind legs to give themselves a better vantage point to look for predators. They alert other rabbits to the presence of danger by thumping their hind legs."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Frogs are amphibians. They lay their eggs in water. The eggs hatch into a tadpole which lives in water until it metamorphoses into an adult frog. Instead of drinking water, frogs soak it into their body through their skin."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                6
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "blowhole on top"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                8
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "water habitat"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                10
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "live in the sea"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                6
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Dolphins use a blowhole on top of their heads to breathe."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                8
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "If a shark was put into a large swimming pool, it would be able to smell a single drop of blood in the water."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                10
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Whales are huge, warm-blooded, air breathing mammals that live in the sea."
-        },
-        {
-            "technique": "TRADITIONAL",
             "windows": 1,
             "windows_to_open": [
                 6
@@ -1621,7 +1561,7 @@
             "stimuli": "Dolphins are intelligent animals that display a wide range of unique behaviors. Dolphins use a blowhole on top of their heads to breathe. Dolphins communicate with each other by clicking, whistling and other sounds."
         },
         {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "windows": 1,
             "windows_to_open": [
                 8
@@ -1631,7 +1571,7 @@
             "stimuli": "Although sharks have a reputation as destructive beasts that attack almost anything that enters their water habitat, the actual number of shark attacks is probably lower than you imagine. If a shark was put into a large swimming pool, it would be able to smell a single drop of blood in the water."
         },
         {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "windows": 1,
             "windows_to_open": [
                 10
@@ -1641,7 +1581,109 @@
             "stimuli": "Whales are huge, warm-blooded, air breathing mammals that live in the sea. There are many different species including the blue whale, killer whale, humpback whale, orca and minke. Whales love to sing! They use this as a call to mates, a way to communicate and also just for fun!"
         },
         {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "whistling and other sounds"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                8
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "drop of blood"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                10
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "orca and minke"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "Dolphins are intelligent animals that display a wide range of unique behaviors."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                8
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "If a shark was put into a large swimming pool, it would be able to smell a single drop of blood in the water."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                10
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "They use this as a call to mates, a way to communicate and also just for fun."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 5,
+            "windows_to_open": [
+                6,
+                8,
+                10,
+                1,
+                2
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "Dolphins are intelligent animals that display a wide range of unique behaviors. Dolphins use a blowhole on top of their heads to breathe. Dolphins communicate with each other by clicking, whistling and other sounds."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 5,
+            "windows_to_open": [
+                6,
+                8,
+                10,
+                1,
+                2
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "Although sharks have a reputation as destructive beasts that attack almost anything that enters their water habitat, the actual number of shark attacks is probably lower than you imagine. If a shark was put into a large swimming pool, it would be able to smell a single drop of blood in the water."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 5,
+            "windows_to_open": [
+                6,
+                8,
+                10,
+                1,
+                2
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "Whales are huge, warm-blooded, air breathing mammals that live in the sea. There are many different species including the blue whale, killer whale, humpback whale, orca and minke. Whales love to sing! They use this as a call to mates, a way to communicate and also just for fun!"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
             "windows": 5,
             "windows_to_open": [
                 6,
@@ -1655,405 +1697,18 @@
             "stimuli": "whistling and other sounds"
         },
         {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                6,
-                8,
-                10,
-                1,
-                2
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "water habitat"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                6,
-                8,
-                10,
-                1,
-                2
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "orca and minke"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                6,
-                8,
-                10,
-                1,
-                2
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Dolphins use a blowhole on top of their heads to breathe."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                6,
-                8,
-                10,
-                1,
-                2
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Although sharks have a reputation as destructive beasts that attack almost anything that enters their water habitat, the actual number of shark attacks is probably lower than you imagine."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                6,
-                8,
-                10,
-                1,
-                2
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "There are many different species including the blue whale, killer whale, humpback whale, orca and minke."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                6,
-                8,
-                10,
-                1,
-                2
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Dolphins are intelligent animals that display a wide range of unique behaviors. Dolphins use a blowhole on top of their heads to breathe. Dolphins communicate with each other by clicking, whistling and other sounds."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                6,
-                8,
-                10,
-                1,
-                2
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Although sharks have a reputation as destructive beasts that attack almost anything that enters their water habitat, the actual number of shark attacks is probably lower than you imagine. If a shark was put into a large swimming pool, it would be able to smell a single drop of blood in the water."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                6,
-                8,
-                10,
-                1,
-                2
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Whales are huge, warm-blooded, air breathing mammals that live in the sea. There are many different species including the blue whale, killer whale, humpback whale, orca and minke. Whales love to sing! They use this as a call to mates, a way to communicate and also just for fun!"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "range of unique behaviors"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "drop of blood"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "live in the sea"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Dolphins communicate with each other by clicking, whistling and other sounds."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Although sharks have a reputation as destructive beasts that attack almost anything that enters their water habitat, the actual number of shark attacks is probably lower than you imagine."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "They use this as a call to mates, a way to communicate and also just for fun."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Dolphins are intelligent animals that display a wide range of unique behaviors. Dolphins use a blowhole on top of their heads to breathe. Dolphins communicate with each other by clicking, whistling and other sounds."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Although sharks have a reputation as destructive beasts that attack almost anything that enters their water habitat, the actual number of shark attacks is probably lower than you imagine. If a shark was put into a large swimming pool, it would be able to smell a single drop of blood in the water."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Whales are huge, warm-blooded, air breathing mammals that live in the sea. There are many different species including the blue whale, killer whale, humpback whale, orca and minke. Whales love to sing! They use this as a call to mates, a way to communicate and also just for fun!"
-        },
-        {
             "technique": "AUTOCOMPASTE",
-            "windows": 1,
+            "windows": 5,
             "windows_to_open": [
-                6
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "blowhole on top"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                8
+                6,
+                8,
+                10,
+                1,
+                2
             ],
             "granularity": "phrase",
             "data_file": "data/texts.json",
             "stimuli": "attack almost anything"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                10
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "orca and minke"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                6
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Dolphins communicate with each other by clicking, whistling and other sounds."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                8
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Although sharks have a reputation as destructive beasts that attack almost anything that enters their water habitat, the actual number of shark attacks is probably lower than you imagine."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                10
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "There are many different species including the blue whale, killer whale, humpback whale, orca and minke."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                6
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Dolphins are intelligent animals that display a wide range of unique behaviors. Dolphins use a blowhole on top of their heads to breathe. Dolphins communicate with each other by clicking, whistling and other sounds."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                8
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Although sharks have a reputation as destructive beasts that attack almost anything that enters their water habitat, the actual number of shark attacks is probably lower than you imagine. If a shark was put into a large swimming pool, it would be able to smell a single drop of blood in the water."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                10
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Whales are huge, warm-blooded, air breathing mammals that live in the sea. There are many different species including the blue whale, killer whale, humpback whale, orca and minke. Whales love to sing! They use this as a call to mates, a way to communicate and also just for fun!"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                6,
-                8,
-                10,
-                1,
-                2
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "range of unique behaviors"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                6,
-                8,
-                10,
-                1,
-                2
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "water habitat"
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -2113,13 +1768,18 @@
         },
         {
             "technique": "AUTOCOMPASTE",
-            "windows": 5,
+            "windows": 10,
             "windows_to_open": [
-                6,
-                8,
-                10,
                 1,
-                2
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
             ],
             "granularity": "paragraph",
             "data_file": "data/texts.json",
@@ -2127,13 +1787,18 @@
         },
         {
             "technique": "AUTOCOMPASTE",
-            "windows": 5,
+            "windows": 10,
             "windows_to_open": [
-                6,
-                8,
-                10,
                 1,
-                2
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
             ],
             "granularity": "paragraph",
             "data_file": "data/texts.json",
@@ -2141,13 +1806,18 @@
         },
         {
             "technique": "AUTOCOMPASTE",
-            "windows": 5,
+            "windows": 10,
             "windows_to_open": [
-                6,
-                8,
-                10,
                 1,
-                2
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
             ],
             "granularity": "paragraph",
             "data_file": "data/texts.json",
@@ -2227,7 +1897,7 @@
             ],
             "granularity": "sentence",
             "data_file": "data/texts.json",
-            "stimuli": "Dolphins are intelligent animals that display a wide range of unique behaviors."
+            "stimuli": "Dolphins use a blowhole on top of their heads to breathe."
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -2265,10 +1935,226 @@
             ],
             "granularity": "sentence",
             "data_file": "data/texts.json",
-            "stimuli": "Whales are huge, warm-blooded, air breathing mammals that live in the sea."
+            "stimuli": "There are many different species including the blue whale, killer whale, humpback whale, orca and minke."
         },
         {
-            "technique": "AUTOCOMPASTE",
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "Dolphins are intelligent animals that display a wide range of unique behaviors. Dolphins use a blowhole on top of their heads to breathe. Dolphins communicate with each other by clicking, whistling and other sounds."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                8
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "Although sharks have a reputation as destructive beasts that attack almost anything that enters their water habitat, the actual number of shark attacks is probably lower than you imagine. If a shark was put into a large swimming pool, it would be able to smell a single drop of blood in the water."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                10
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "Whales are huge, warm-blooded, air breathing mammals that live in the sea. There are many different species including the blue whale, killer whale, humpback whale, orca and minke. Whales love to sing! They use this as a call to mates, a way to communicate and also just for fun!"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "range of unique behaviors"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                8
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "attack almost anything"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                10
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "orca and minke"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "Dolphins are intelligent animals that display a wide range of unique behaviors."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                8
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "If a shark was put into a large swimming pool, it would be able to smell a single drop of blood in the water."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                10
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "There are many different species including the blue whale, killer whale, humpback whale, orca and minke."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 5,
+            "windows_to_open": [
+                6,
+                8,
+                10,
+                1,
+                2
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "Dolphins are intelligent animals that display a wide range of unique behaviors. Dolphins use a blowhole on top of their heads to breathe. Dolphins communicate with each other by clicking, whistling and other sounds."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 5,
+            "windows_to_open": [
+                6,
+                8,
+                10,
+                1,
+                2
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "Although sharks have a reputation as destructive beasts that attack almost anything that enters their water habitat, the actual number of shark attacks is probably lower than you imagine. If a shark was put into a large swimming pool, it would be able to smell a single drop of blood in the water."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 5,
+            "windows_to_open": [
+                6,
+                8,
+                10,
+                1,
+                2
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "Whales are huge, warm-blooded, air breathing mammals that live in the sea. There are many different species including the blue whale, killer whale, humpback whale, orca and minke. Whales love to sing! They use this as a call to mates, a way to communicate and also just for fun!"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 5,
+            "windows_to_open": [
+                6,
+                8,
+                10,
+                1,
+                2
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "whistling and other sounds"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 5,
+            "windows_to_open": [
+                6,
+                8,
+                10,
+                1,
+                2
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "attack almost anything"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 5,
+            "windows_to_open": [
+                6,
+                8,
+                10,
+                1,
+                2
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "live in the sea"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 5,
+            "windows_to_open": [
+                6,
+                8,
+                10,
+                1,
+                2
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "Dolphins communicate with each other by clicking, whistling and other sounds."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 5,
+            "windows_to_open": [
+                6,
+                8,
+                10,
+                1,
+                2
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "If a shark was put into a large swimming pool, it would be able to smell a single drop of blood in the water."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 5,
+            "windows_to_open": [
+                6,
+                8,
+                10,
+                1,
+                2
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "There are many different species including the blue whale, killer whale, humpback whale, orca and minke."
+        },
+        {
+            "technique": "TRADITIONAL",
             "windows": 10,
             "windows_to_open": [
                 1,
@@ -2287,7 +2173,7 @@
             "stimuli": "Dolphins are intelligent animals that display a wide range of unique behaviors. Dolphins use a blowhole on top of their heads to breathe. Dolphins communicate with each other by clicking, whistling and other sounds."
         },
         {
-            "technique": "AUTOCOMPASTE",
+            "technique": "TRADITIONAL",
             "windows": 10,
             "windows_to_open": [
                 1,
@@ -2306,7 +2192,7 @@
             "stimuli": "Although sharks have a reputation as destructive beasts that attack almost anything that enters their water habitat, the actual number of shark attacks is probably lower than you imagine. If a shark was put into a large swimming pool, it would be able to smell a single drop of blood in the water."
         },
         {
-            "technique": "AUTOCOMPASTE",
+            "technique": "TRADITIONAL",
             "windows": 10,
             "windows_to_open": [
                 1,
@@ -2323,6 +2209,122 @@
             "granularity": "paragraph",
             "data_file": "data/texts.json",
             "stimuli": "Whales are huge, warm-blooded, air breathing mammals that live in the sea. There are many different species including the blue whale, killer whale, humpback whale, orca and minke. Whales love to sing! They use this as a call to mates, a way to communicate and also just for fun!"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 10,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "whistling and other sounds"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 10,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "drop of blood"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 10,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "live in the sea"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 10,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "Dolphins are intelligent animals that display a wide range of unique behaviors."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 10,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "Although sharks have a reputation as destructive beasts that attack almost anything that enters their water habitat, the actual number of shark attacks is probably lower than you imagine."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 10,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "They use this as a call to mates, a way to communicate and also just for fun."
         }
     ]
+
 }
+

@@ -5,7 +5,10 @@
     <title></title>
 </head>
 <body>
+<pre>{
+    "experiments":</pre>
     <pre id="json-output"></pre>
+<pre>}</pre>
 
 
     <script>
@@ -15,8 +18,8 @@
         // the conditions
         var block = 0; // 0, 1, 2
         var w = [1, 5, 10];
-        var t = ["TRADITIONAL", "AUTOCOMPASTE"]; // *SWITCH* for P4, 5, 6
-        var g = ["phrase", "sentence", "paragraph"]; // *SWITCH*
+        var t = ["AUTOCOMPASTE", "TRADITIONAL"]; // *SWITCH* for P4, 5, 6
+        var g = ["phrase", "sentence", "paragraph"]; // *SWITCH* for all P
 
         var fiveWindowCombo = [[1,3,5,6,7], [2,4,7,8,9], [6,8,10,1,2]]; // which 5 windows to open
         var articleNos = [[1, 3, 5], [2, 4, 7], [6, 8, 10]];
@@ -43,7 +46,7 @@
             ["There are over 10,000 living species of bird on Earth and they live on all continents including the Arctic and Antarctica.", "Birds are social creatures which is why they travel in a flock.", "Birds are a group of endothermic vertebrates, characterised by feathers, a beak with no teeth, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a lightweight but strong skeleton."],
             ["Rabbits are affectionate social animals that enjoy the company of other rabbits.", "Rabbits stand upright on their hind legs to give themselves a better vantage point to look for predators.", "They alert other rabbits to the presence of danger by thumping their hind legs."],
             ["Kangaroos are marsupial animals that are found in Australia as well as New Guinea.", "Kangaroos cannot walk backwards.", "Kangaroos have very powerful legs and can be dangerous at times."],
-            ["Dolphins are intelligent animals that display a wide range of unique behaviors.", "Dolphins use a blowhole on top of their heads to breathe.", " Dolphins communicate with each other by clicking, whistling and other sounds."],
+            ["Dolphins are intelligent animals that display a wide range of unique behaviors.", "Dolphins use a blowhole on top of their heads to breathe.", "Dolphins communicate with each other by clicking, whistling and other sounds."],
             ["Frogs are amphibians.", "They lay their eggs in water.", "The eggs hatch into a tadpole which lives in water until it metamorphoses into an adult frog.", "Instead of drinking water, frogs soak it into their body through their skin."],
             ["Although sharks have a reputation as destructive beasts that attack almost anything that enters their water habitat, the actual number of shark attacks is probably lower than you imagine.", "If a shark was put into a large swimming pool, it would be able to smell a single drop of blood in the water."],
             ["Giraffes are the tallest land animals on earth thanks in part to their distinctive necks which alone can reach almost 2 meters in height.", "A giraffe's habitat is usually found in African savannas, grasslands or open woodlands."],

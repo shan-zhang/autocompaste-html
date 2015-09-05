@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3e11baf4-b2dd-4905-ba20-8c04f12a8855" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/WindowManager.js" afterPath="$PROJECT_DIR$/js/WindowManager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiment.html" afterPath="$PROJECT_DIR$/experiment.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/experiments.json" afterPath="$PROJECT_DIR$/data/experiments.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/experimentsJsonGenerator.html" afterPath="$PROJECT_DIR$/data/experimentsJsonGenerator.html" />
     </list>
     <ignored path="acp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,31 +31,11 @@
       <file leaf-file-name="interface.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/autocompaste/interface.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.3421054" vertical-offset="3339" max-vertical-offset="6336">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3301" max-vertical-offset="6336">
               <caret line="146" column="29" selection-start-line="146" selection-start-column="29" selection-end-line="146" selection-end-column="29" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WindowManager.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/WindowManager.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7130282" vertical-offset="14859" max-vertical-offset="17496">
-              <caret line="652" column="31" selection-start-line="652" selection-start-column="31" selection-end-line="652" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ACPToolKit.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/ACPToolKit.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1859" max-vertical-offset="3696">
-              <caret line="108" column="89" selection-start-line="108" selection-start-column="89" selection-end-line="108" selection-end-column="89" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -70,53 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="instructions.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/instructions.html">
+      <file leaf-file-name="experimentsJsonGenerator.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/experimentsJsonGenerator.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.392857" vertical-offset="729" max-vertical-offset="2328">
-              <caret line="39" column="72" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.236842" vertical-offset="2595" max-vertical-offset="6432">
-              <caret line="118" column="19" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="questionnaire-pre.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/questionnaire-pre.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.75" vertical-offset="723" max-vertical-offset="1680">
-              <caret line="38" column="68" selection-start-line="38" selection-start-column="68" selection-end-line="38" selection-end-column="68" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="texts.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/texts.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-32.57143" vertical-offset="0" max-vertical-offset="1152">
-              <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="experiments.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/experiments.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.821428" vertical-offset="55297" max-vertical-offset="56016">
-              <caret line="2326" column="5" selection-start-line="2326" selection-start-column="5" selection-end-line="2326" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.7474049" vertical-offset="72" max-vertical-offset="3864">
+              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -150,14 +88,20 @@
         <option value="$PROJECT_DIR$/data/articles/a1.txt" />
         <option value="$PROJECT_DIR$/instructions.html" />
         <option value="$PROJECT_DIR$/data/texts.json" />
-        <option value="$PROJECT_DIR$/data/experimentsJsonGenerator.html" />
-        <option value="$PROJECT_DIR$/data/experiments.json" />
         <option value="$PROJECT_DIR$/js/ACPToolKit.js" />
         <option value="$PROJECT_DIR$/js/autocompaste/interface.js" />
         <option value="$PROJECT_DIR$/questionnaire-pre.html" />
         <option value="$PROJECT_DIR$/experiment.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/WindowManager.js" />
+        <option value="$PROJECT_DIR$/data/experiments1.json" />
+        <option value="$PROJECT_DIR$/data/experiments2.json" />
+        <option value="$PROJECT_DIR$/data/experiments.json" />
+        <option value="$PROJECT_DIR$/data/experiments3.json" />
+        <option value="$PROJECT_DIR$/data/experiments6.json" />
+        <option value="$PROJECT_DIR$/data/experiments5.json" />
+        <option value="$PROJECT_DIR$/data/experimentsJsonGenerator.html" />
+        <option value="$PROJECT_DIR$/data/experiments4.json" />
       </list>
     </option>
   </component>
@@ -563,22 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/experimentsJsonGenerator.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0" vertical-offset="2808" max-vertical-offset="3792">
-          <caret line="124" column="29" selection-start-line="124" selection-start-column="29" selection-end-line="124" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/experiments.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.821428" vertical-offset="55297" max-vertical-offset="56016">
-          <caret line="2326" column="5" selection-start-line="2326" selection-start-column="5" selection-end-line="2326" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/texts.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-32.57143" vertical-offset="0" max-vertical-offset="1152">
@@ -613,24 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.5" vertical-offset="1078" max-vertical-offset="3456">
-          <caret line="63" column="36" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/autocompaste/interface.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.3421054" vertical-offset="3339" max-vertical-offset="6336">
-          <caret line="146" column="29" selection-start-line="146" selection-start-column="29" selection-end-line="146" selection-end-column="29" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.236842" vertical-offset="2595" max-vertical-offset="6432">
@@ -641,8 +551,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/WindowManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7130282" vertical-offset="14859" max-vertical-offset="17496">
-          <caret line="652" column="31" selection-start-line="652" selection-start-column="31" selection-end-line="652" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.67077464" vertical-offset="14859" max-vertical-offset="17496">
+          <caret line="651" column="46" selection-start-line="651" selection-start-column="46" selection-end-line="651" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/autocompaste/interface.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3301" max-vertical-offset="6336">
+          <caret line="146" column="29" selection-start-line="146" selection-start-column="29" selection-end-line="146" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/experiments1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2" vertical-offset="47268" max-vertical-offset="56016">
+          <caret line="1974" column="14" selection-start-line="1974" selection-start-column="14" selection-end-line="1974" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/experiments2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2" vertical-offset="48780" max-vertical-offset="55992">
+          <caret line="2037" column="14" selection-start-line="2037" selection-start-column="14" selection-end-line="2037" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.5" vertical-offset="1078" max-vertical-offset="3456">
+          <caret line="63" column="36" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/experiments.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12456747" vertical-offset="0" max-vertical-offset="578">
+          <caret line="2326" column="5" selection-start-line="2326" selection-start-column="5" selection-end-line="2326" selection-end-column="5" />
+          <folding>
+            <element signature="e#26#76388#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/experiments3.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="56016">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/experiments6.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="56016">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/experiments5.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="56016">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/experiments4.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="56016">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/experimentsJsonGenerator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7474049" vertical-offset="72" max-vertical-offset="3864">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding />
         </state>
       </provider>
