@@ -47,7 +47,7 @@ Path: `index.html`.
 
 The welcome interface of the experiment where basic instructions are provided to your participants. Collect input from the participant/experimenter the participant ID so that you can generate the correct experiment trials and data log for a particular experiment session.
 
-The participant ID entered here will be saved into HTML5 `localStorage` and the value is refereenced in other screens too. If other pages are visited and the participant ID has not been set, the user will be prompted to enter a value to be used as the participant ID.
+The participant ID entered here will be saved into HTML5 `localStorage` and the value is refereenced in other screens too. If other pages are visited and the participant ID has not been set, the user will be prompted to enter a value to be used as the participant ID. The participant ID must be between 1-6.
 
 
 ##### Pre-Experiment Questionnaire Screen
@@ -76,7 +76,7 @@ The experiment page is the most complicated of all. The screen is split into two
 
 **Left Section**
 
-The Technique, Granularity and Trial number will be displayed. In addition, you have to decide on the third independent variable that you want to test and modify/customize the code to suit your experiment design. Remember to update the UI to show the current value of the third independent variable for the current trial too!
+The Technique, Granularity, Number of Windows Opened and Trial number will be displayed. In addition, you have to decide on the third independent variable that you want to test and modify/customize the code to suit your experiment design. Remember to update the UI to show the current value of the third independent variable for the current trial too!
 
 The words in the red box are called the stimuli. This is the target text that the participants has to enter into the Text Editor window using one of the two techniques. Please ensure that the participants do not manually type the text in!
 
@@ -170,6 +170,9 @@ Every page includes the library `ACPToolKit.js`, which provides some common util
 		- `granularity`: Level of granularity of the stimuli of the current trial. one of the three values **"sentence"**, **"phrase"**, or **"paragraph"**. Note that this value is only used to update the 			interface for displaying of the conditions.
 		- `data_file`: The path to a JSON file consisting of a data object. The format of the data object will be explained in detail later.
 		- `stimuli`: The stimuli for a trial. There is no checking done by `ACPToolkit.js` to ensure that the stimuli here is consistent with the `granularity` given above.
+		- `windows`: Number of windows opened
+    - `windows_to_open`: The windows to open in that particular trial
+
 	
 	**Description:**
 	
@@ -183,6 +186,7 @@ Every page includes the library `ACPToolKit.js`, which provides some common util
 	- `options`: An object containing the following keys:
 		- `technique`: The `technique` value for the current trial.
 		- `granularity`: The `granularity` value for the current trial.
+		- `windows`: The `windows` value for the current trial.
 		- `data_file`: The `data_file` value for the current trial.
 		- `technique`: The `technique` value for the current trial.
 		- `start_time`: The starting time of the current trial, given in milliseconds since midnight 01 January, 1970 UTC.
