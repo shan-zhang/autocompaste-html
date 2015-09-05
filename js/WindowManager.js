@@ -649,6 +649,8 @@ var WindowManager = (function () {
         if (wd) {
           var x = wd.x;
           var y = wd.y;
+
+          if (x == 0) { x = 20; }
           $(privates.windows[window_name].struct).css(
             "transform", "translate(" + x + "px, " + y + "px)"
           );

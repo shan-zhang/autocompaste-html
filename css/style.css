@@ -105,18 +105,22 @@ h3 {
   background-color: #FAFCFF;
 }
 
-.modal-dialog {
-  margin: 20px;
-}
-
 pre {
   white-space: pre-wrap;
   word-wrap: break-word;
 }
 
+.acp-info {
+  padding: 7% 7% 15px;
+}
+
 .autocompaste-textarea {
   padding: 5px;
   line-height: 1.4;
+}
+
+.acp-next-btn {
+  text-align: right;
 }
 
 .pid {
