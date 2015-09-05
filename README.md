@@ -220,6 +220,9 @@ Paths to data object files are being passed into the `ACPToolKit.presentTrial()`
     
 Each object in the array will be transformed into a window and displayed in the interface, with `title` corresponding to the window title and text content loaded from the file located at `url`. Refer to `data/texts.json` for an example of the data object file. Each article should be in the `.txt` format.
 
+##### Data folder - experiments.json
+To TA: I have coded `experimentsJsonGenerator.html` in order to generate 162 task objects for each participant. It will permutate between the conditions as specified in the report. The result is 6 different `experiments.json` in the `data` folder which will load corresponding to the Participant ID.
+
 
 ### Credits
 

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3e11baf4-b2dd-4905-ba20-8c04f12a8855" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="acp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,21 +29,9 @@
       <file leaf-file-name="experiment.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/experiment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2274" max-vertical-offset="3840">
-              <caret line="104" column="44" selection-start-line="104" selection-start-column="44" selection-end-line="104" selection-end-column="44" />
+            <state vertical-scroll-proportion="-16.5" vertical-offset="1770" max-vertical-offset="3840">
+              <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="interface.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/autocompaste/interface.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2756" max-vertical-offset="6336">
-              <caret line="122" column="14" selection-start-line="122" selection-start-column="14" selection-end-line="122" selection-end-column="14" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -58,33 +45,13 @@
             <state />
           </provider>
           <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.896552" vertical-offset="3836" max-vertical-offset="5592">
-              <caret line="173" column="36" selection-start-line="173" selection-start-column="36" selection-end-line="173" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="4637" max-vertical-offset="5664">
+              <caret line="222" column="20" selection-start-line="222" selection-start-column="20" selection-end-line="222" selection-end-column="20" />
               <folding />
             </state>
           </provider>
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="experiments1.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/experiments1.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="47268" max-vertical-offset="56016">
-              <caret line="1980" column="40" selection-start-line="1980" selection-start-column="40" selection-end-line="1980" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ACPToolKit.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/ACPToolKit.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1733" max-vertical-offset="3696">
-              <caret line="79" column="31" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="31" />
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
@@ -438,7 +405,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="2756" max-vertical-offset="6336">
           <caret line="122" column="14" selection-start-line="122" selection-start-column="14" selection-end-line="122" selection-end-column="14" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -480,7 +447,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="2342" max-vertical-offset="6336">
           <caret line="99" column="9" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -526,7 +493,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="1224" max-vertical-offset="6168">
           <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -566,7 +533,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6168">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -762,21 +729,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiment.html">
+    <entry file="file://$PROJECT_DIR$/js/autocompaste/interface.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2274" max-vertical-offset="3840">
-          <caret line="104" column="44" selection-start-line="104" selection-start-column="44" selection-end-line="104" selection-end-column="44" />
-          <folding />
+        <state vertical-scroll-proportion="0.21689786" vertical-offset="2756" max-vertical-offset="6336">
+          <caret line="122" column="14" selection-start-line="122" selection-start-column="14" selection-end-line="122" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/autocompaste/interface.js">
+    <entry file="file://$PROJECT_DIR$/experiment.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2756" max-vertical-offset="6336">
-          <caret line="122" column="14" selection-start-line="122" selection-start-column="14" selection-end-line="122" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-16.5" vertical-offset="1770" max-vertical-offset="3840">
+          <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -788,8 +755,8 @@
         <state />
       </provider>
       <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.896552" vertical-offset="3836" max-vertical-offset="5592">
-          <caret line="173" column="36" selection-start-line="173" selection-start-column="36" selection-end-line="173" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="4637" max-vertical-offset="5664">
+          <caret line="222" column="20" selection-start-line="222" selection-start-column="20" selection-end-line="222" selection-end-column="20" />
           <folding />
         </state>
       </provider>
