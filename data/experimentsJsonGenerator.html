@@ -5,6 +5,149 @@
     <title></title>
 </head>
 <body>
+    <pre id="json-output"></pre>
 
+
+    <script>
+        // the json
+        var experiments = [];
+
+        // the conditions
+        var block = 0; // 0, 1, 2
+        var w = [1, 5, 10];
+        var t = ["TRADITIONAL", "AUTOCOMPASTE"]; // *SWITCH* for P4, 5, 6
+        var g = ["phrase", "sentence", "paragraph"]; // *SWITCH*
+
+        var fiveWindowCombo = [[1,3,5,6,7], [2,4,7,8,9], [6,8,10,1,2]]; // which 5 windows to open
+        var articleNos = [[1, 3, 5], [2, 4, 7], [6, 8, 10]];
+        var topics = ["", "cats", "dogs", "birds", "rabbits", "kanga", "dolphins", "frogs", "sharks", "giraffes", "whales"];
+
+        var phrases = [
+            [],
+            ["often called housecats", "felids and felines", "domestic cat"],
+            ["domestic dog", "direct descendants of wolves", "selectively bred for millennia"],
+            ["characterised by feathers", "lightweight but strong skeleton", "hard-shelled eggs"],
+            ["company of other rabbits", "presence of danger", "thumping their hind legs"],
+            ["very powerful legs", "marsupial animals", "walk backwards"],
+            ["range of unique behaviors", "blowhole on top", "whistling and other sounds"],
+            ["lay their eggs", "hatch into a tadpole", "metamorphoses into an adult"],
+            ["attack almost anything", "water habitat", "drop of blood"],
+            ["tallest land animals", "African savannas", "giraffe's habitat"],
+            ["live in the sea", "orca and minke", "love to sing"],
+        ];
+
+        var sentences = [
+            [],
+            ["The domestic cat is a small, usually furry, domesticated, and carnivorous mammal.", "They are often called housecats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines."],
+            ["The domestic dog is a domesticated canid which has been selectively bred for millennia for various behaviors, sensory capabilities, and physical attributes.", "All dogs, regardless of breed, are direct descendants of wolves and technically of the same species."],
+            ["There are over 10,000 living species of bird on Earth and they live on all continents including the Arctic and Antarctica.", "Birds are social creatures which is why they travel in a flock.", "Birds are a group of endothermic vertebrates, characterised by feathers, a beak with no teeth, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a lightweight but strong skeleton."],
+            ["Rabbits are affectionate social animals that enjoy the company of other rabbits.", "Rabbits stand upright on their hind legs to give themselves a better vantage point to look for predators.", "They alert other rabbits to the presence of danger by thumping their hind legs."],
+            ["Kangaroos are marsupial animals that are found in Australia as well as New Guinea.", "Kangaroos cannot walk backwards.", "Kangaroos have very powerful legs and can be dangerous at times."],
+            ["Dolphins are intelligent animals that display a wide range of unique behaviors.", "Dolphins use a blowhole on top of their heads to breathe.", " Dolphins communicate with each other by clicking, whistling and other sounds."],
+            ["Frogs are amphibians.", "They lay their eggs in water.", "The eggs hatch into a tadpole which lives in water until it metamorphoses into an adult frog.", "Instead of drinking water, frogs soak it into their body through their skin."],
+            ["Although sharks have a reputation as destructive beasts that attack almost anything that enters their water habitat, the actual number of shark attacks is probably lower than you imagine.", "If a shark was put into a large swimming pool, it would be able to smell a single drop of blood in the water."],
+            ["Giraffes are the tallest land animals on earth thanks in part to their distinctive necks which alone can reach almost 2 meters in height.", "A giraffe's habitat is usually found in African savannas, grasslands or open woodlands."],
+            ["Whales are huge, warm-blooded, air breathing mammals that live in the sea.", "There are many different species including the blue whale, killer whale, humpback whale, orca and minke.", "Whales love to sing!", "They use this as a call to mates, a way to communicate and also just for fun."],
+        ];
+
+        var paragraphs = [
+            [],
+            ["The domestic cat is a small, usually furry, domesticated, and carnivorous mammal. They are often called housecats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines."],
+            ["The domestic dog is a domesticated canid which has been selectively bred for millennia for various behaviors, sensory capabilities, and physical attributes. All dogs, regardless of breed, are direct descendants of wolves and technically of the same species."],
+            ["Birds are a group of endothermic vertebrates, characterised by feathers, a beak with no teeth, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a lightweight but strong skeleton. There are over 10,000 living species of bird on Earth and they live on all continents including the Arctic and Antarctica. Birds are social creatures which is why they travel in a flock."],
+            ["Rabbits are affectionate social animals that enjoy the company of other rabbits. Rabbits stand upright on their hind legs to give themselves a better vantage point to look for predators. They alert other rabbits to the presence of danger by thumping their hind legs."],
+            ["Kangaroos are marsupial animals that are found in Australia as well as New Guinea. Kangaroos cannot walk backwards. Kangaroos have very powerful legs and can be dangerous at times."],
+            ["Dolphins are intelligent animals that display a wide range of unique behaviors. Dolphins use a blowhole on top of their heads to breathe. Dolphins communicate with each other by clicking, whistling and other sounds."],
+            ["Frogs are amphibians. They lay their eggs in water. The eggs hatch into a tadpole which lives in water until it metamorphoses into an adult frog. Instead of drinking water, frogs soak it into their body through their skin."],
+            ["Although sharks have a reputation as destructive beasts that attack almost anything that enters their water habitat, the actual number of shark attacks is probably lower than you imagine. If a shark was put into a large swimming pool, it would be able to smell a single drop of blood in the water."],
+            ["Giraffes are the tallest land animals on earth thanks in part to their distinctive necks which alone can reach almost 2 meters in height. A giraffe's habitat is usually found in African savannas, grasslands or open woodlands."],
+            ["Whales are huge, warm-blooded, air breathing mammals that live in the sea. There are many different species including the blue whale, killer whale, humpback whale, orca and minke. Whales love to sing! They use this as a call to mates, a way to communicate and also just for fun!"],
+        ];
+
+        // other
+        var jsonOutput = document.getElementById('json-output');
+        var count = 0;
+
+
+        for (var b = 0; b < 3; b++) {
+            block = b;
+            for (var i = 0; i < t.length; ++i) { // 2
+                for (var j = 0; j < w.length; ++j) { // 3
+                    for (var k = 0; k < g.length; ++k) { // 3
+                        for (var trial = 0; trial < 3; trial++) { // 3 trials
+
+                            /*
+                             decide the stimuli
+                             */
+                            var granularityArray = [];
+                            var articleArray = [];
+                            var articleNo = articleNos[block][trial];
+                            var stimuli = "Not defined";
+
+                            // decide whether to take phrase, sentence or paragraph
+                            switch(g[k]) {
+                                case "phrase":
+                                    granularityArray = phrases;
+                                    break;
+                                case "sentence":
+                                    granularityArray = sentences;
+                                    break;
+                                case "paragraph":
+                                    granularityArray = paragraphs;
+                                    break;
+                                default:
+                                    console.log("Granularity array not defined");
+                            }
+
+                            // the selection of phrases/sentences/paragraphs
+                            articleArray = granularityArray[articleNo];
+                            // generate a random index
+                            randomNo = Math.floor(Math.random() * articleArray.length);
+                            // select random stimuli from articleArray
+                            stimuli = articleArray[randomNo];
+
+                            /*
+                             decide windows to open
+                             */
+                            var windowsToOpen = [];
+                            switch(w[j]) {
+                                case 1:
+                                    windowsToOpen.push(articleNo); // open that article only
+                                    break;
+                                case 5:
+                                    windowsToOpen = fiveWindowCombo[block]; // open the 5 windows specified above
+                                    break;
+                                case 10:
+                                    windowsToOpen = [1,2,3,4,5,6,7,8,9,10]; // open all 10 windows
+                                    break;
+                                default:
+                                    console.log("windowsToOpen not defined");
+                            }
+
+
+                            // json object
+                            experiments.push({
+                                "technique": t[i],
+                                "windows": w[j],
+                                //"article": articleNo + " - " + topics[articleNo],
+                                "windows_to_open": windowsToOpen,
+                                "granularity": g[k],
+                                "data_file": "data/texts.json",
+                                "stimuli": stimuli
+                            });
+
+                            count++;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        console.log(count);
+
+        jsonOutput.innerHTML = JSON.stringify(experiments, null, '  ');
+
+    </script>
 </body>
 </html>

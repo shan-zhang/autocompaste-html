@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e11baf4-b2dd-4905-ba20-8c04f12a8855" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/c.png" afterPath="$PROJECT_DIR$/img/c.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/cc.png" afterPath="$PROJECT_DIR$/img/cc.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/experiments.json" afterPath="$PROJECT_DIR$/data/experiments.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/instructions.html" afterPath="$PROJECT_DIR$/instructions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/autocompaste/interface.js" afterPath="$PROJECT_DIR$/js/autocompaste/interface.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/experimentsJsonGenerator.html" afterPath="$PROJECT_DIR$/data/experimentsJsonGenerator.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/texts.json" afterPath="$PROJECT_DIR$/data/texts.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="acp.iws" />
@@ -36,8 +32,8 @@
       <file leaf-file-name="interface.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/autocompaste/interface.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2564" max-vertical-offset="6168">
-              <caret line="122" column="35" selection-start-line="122" selection-start-column="35" selection-end-line="122" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1152" max-vertical-offset="6168">
+              <caret line="159" column="41" selection-start-line="159" selection-start-column="41" selection-end-line="159" selection-end-column="41" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -45,11 +41,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="experiment.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/experiment.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.678571" vertical-offset="2449" max-vertical-offset="3360">
+              <caret line="111" column="38" selection-start-line="111" selection-start-column="38" selection-end-line="111" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15584415" vertical-offset="3024" max-vertical-offset="5472">
-              <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="4856" max-vertical-offset="5496">
+              <caret line="221" column="19" selection-start-line="221" selection-start-column="19" selection-end-line="221" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ACPToolKit.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/ACPToolKit.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="968" max-vertical-offset="3672">
+              <caret line="47" column="66" selection-start-line="47" selection-start-column="66" selection-end-line="47" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -58,18 +74,28 @@
       <file leaf-file-name="WindowManager.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/WindowManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="6737" max-vertical-offset="17448">
+            <state vertical-scroll-proportion="0.0" vertical-offset="5729" max-vertical-offset="17448">
               <caret line="300" column="32" selection-start-line="300" selection-start-column="32" selection-end-line="300" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="texts.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/texts.json">
+      <file leaf-file-name="experiments.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/experiments.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.571428" vertical-offset="504" max-vertical-offset="1152">
-              <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.9165217" vertical-offset="55297" max-vertical-offset="56016">
+              <caret line="2326" column="5" selection-start-line="2326" selection-start-column="5" selection-end-line="2326" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="experimentsJsonGenerator.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/experimentsJsonGenerator.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.0" vertical-offset="2808" max-vertical-offset="3792">
+              <caret line="124" column="29" selection-start-line="124" selection-start-column="29" selection-end-line="124" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -103,12 +129,13 @@
         <option value="$PROJECT_DIR$/data/articles/old/a8.txt" />
         <option value="$PROJECT_DIR$/data/articles/old/a9.txt" />
         <option value="$PROJECT_DIR$/data/articles/old/a10.txt" />
-        <option value="$PROJECT_DIR$/data/experiments.json" />
         <option value="$PROJECT_DIR$/data/articles/a1.txt" />
         <option value="$PROJECT_DIR$/js/autocompaste/interface.js" />
         <option value="$PROJECT_DIR$/instructions.html" />
         <option value="$PROJECT_DIR$/data/texts.json" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/data/experimentsJsonGenerator.html" />
+        <option value="$PROJECT_DIR$/data/experiments.json" />
       </list>
     </option>
   </component>
@@ -116,6 +143,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="333" />
     <option name="width" value="1571" />
     <option name="height" value="1042" />
   </component>
@@ -268,6 +296,7 @@
     <property name="options.lastSelected" value="preferences.keymap" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -323,7 +352,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1571" height="1042" extended-state="0" />
+    <frame x="333" y="0" width="1571" height="1042" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -507,29 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5400641" vertical-offset="4847" max-vertical-offset="5496">
           <caret line="216" column="209" selection-start-line="216" selection-start-column="209" selection-end-line="216" selection-end-column="209" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2424" max-vertical-offset="3360">
-          <caret line="110" column="31" selection-start-line="110" selection-start-column="31" selection-end-line="110" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ACPToolKit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1628" max-vertical-offset="3672">
-          <caret line="77" column="15" selection-start-line="77" selection-start-column="15" selection-end-line="77" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/experiments.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.4285715" vertical-offset="144" max-vertical-offset="1248">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -539,16 +545,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="794">
           <caret line="0" column="105" selection-start-line="0" selection-start-column="105" selection-end-line="0" selection-end-column="105" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/autocompaste/interface.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2564" max-vertical-offset="6168">
-          <caret line="122" column="35" selection-start-line="122" selection-start-column="35" selection-end-line="122" selection-end-column="35" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -562,11 +558,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4856" max-vertical-offset="5496">
+          <caret line="221" column="19" selection-start-line="221" selection-start-column="19" selection-end-line="221" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/texts.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.571428" vertical-offset="504" max-vertical-offset="1152">
+        <state vertical-scroll-proportion="0.6938776" vertical-offset="504" max-vertical-offset="1152">
           <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/autocompaste/interface.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1152" max-vertical-offset="6168">
+          <caret line="159" column="41" selection-start-line="159" selection-start-column="41" selection-end-line="159" selection-end-column="41" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -578,10 +592,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/js/ACPToolKit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15584415" vertical-offset="3024" max-vertical-offset="5472">
-          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="968" max-vertical-offset="3672">
+          <caret line="47" column="66" selection-start-line="47" selection-start-column="66" selection-end-line="47" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/experimentsJsonGenerator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0" vertical-offset="2808" max-vertical-offset="3792">
+          <caret line="124" column="29" selection-start-line="124" selection-start-column="29" selection-end-line="124" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.678571" vertical-offset="2449" max-vertical-offset="3360">
+          <caret line="111" column="38" selection-start-line="111" selection-start-column="38" selection-end-line="111" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/experiments.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9165217" vertical-offset="55297" max-vertical-offset="56016">
+          <caret line="2326" column="5" selection-start-line="2326" selection-start-column="5" selection-end-line="2326" selection-end-column="5" />
           <folding />
         </state>
       </provider>

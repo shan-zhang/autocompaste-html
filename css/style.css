@@ -219,4 +219,5 @@ pre {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  line-height: 1.4;
 }
