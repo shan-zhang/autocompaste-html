@@ -75,6 +75,40 @@ h3 {
   border-bottom: 4px solid #CEE5FC;
 }
 
+.trial-header {
+  color: #2776c4;
+  padding: 3px 10px;
+  font-size: 1.3em;
+  text-align: center;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-bottom: 2px solid #CEE5FC;
+  margin-bottom: 10px;
+}
+
+.par-header, .par-header .js-pid .pid {
+  font-weight: 300;
+  color: rgb(0, 54, 101);
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+  border-top: 0px;
+}
+
+.table-striped > tbody > tr:nth-of-type(2n+1) {
+  background-color: #F2F8FF;
+}
+
+.table-striped > tbody > tr:nth-of-type(2n) {
+  background-color: #FAFCFF;
+}
+
+.modal-dialog {
+  margin: 20px;
+}
+
 pre {
   white-space: pre-wrap;
   word-wrap: break-word;
@@ -86,7 +120,7 @@ pre {
 }
 
 .pid {
-  color: red;
+  color: #2776c4;
   font-weight: bold;
 }
 
@@ -103,7 +137,7 @@ pre {
  */
 
 #autocompaste {
-  background-color: #ccc;
+  background-image: url('../img/bg.png');
   margin: 0;
   padding: 0;
 }

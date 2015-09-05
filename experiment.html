@@ -34,8 +34,9 @@
             <div class="row">
                 <div class="col-md-3">
                     <h1>Copy-Paste Experiment</h1>
-                    <hr>
-                    <table class="table table-bordered">
+                    <div class="trial-header">Trial <span class="js-expt-current-trial"></span></div>
+
+                    <table class="table table-striped">
                         <tbody>
                             <tr>
                                 <td>Technique</td>
@@ -55,9 +56,9 @@
                             </tr>
                         </tbody>
                     </table>
-                    <p>Please copy-paste the following <span class="js-expt-granularity">phrase</span> using the <span class="js-expt-technique">AUTOCOMPASTE</span> technique from one of the open windows.</p>
+                    <p>Participant <span class="js-pid pid"></span>, please copy-paste the following <span class="js-expt-granularity">phrase</span> using the <B><span class="js-expt-technique">AUTOCOMPASTE</span></B> technique.</p>
                     <div id="stimuli" class="alert alert-danger js-expt-stimuli">This is a long stimuli!</div>
-                    <button class="btn btn-primary btn-lg" onclick="next()">Next Task</button>
+                    <div style="text-align: right;"><button class="btn btn-primary btn-lg" onclick="next()">Next Task →</button></div>
                 </div>
                 <div id="autocompaste" class="col-sm-9">
                     <div id="autocompaste-display"></div>
