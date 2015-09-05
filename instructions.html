@@ -1,91 +1,103 @@
 <!doctype html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>CS4249 Assignment 1</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/style.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <nav class="navbar navbar-default">
-            <div class="container">
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="index.html">Welcome</a></li>
-                        <li><a href="questionnaire-pre.html">Pre Questionnaire</a></li>
-                        <li class="active"><a href="instructions.html">Instructions</a></li>
-                        <li><a href="experiment.html">Experiment</a></li>
-                        <li><a href="questionnaire-post.html">Post Questionnaire</a></li>
-                    </ul>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>CS4249 Assignment 1</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Welcome</a></li>
+                <li><a href="questionnaire-pre.html">Pre Questionnaire</a></li>
+                <li class="active"><a href="instructions.html">Instructions</a></li>
+                <li><a href="experiment.html">Experiment</a></li>
+                <li><a href="questionnaire-post.html">Post Questionnaire</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container acp-container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+
+
+            <div class="wow fadeInDown">
+                <center><img style="margin-top: 50px;" src="img/cc.png" class="circle-img"></center>
+                <h1>Instructions</h1>
+
+                <p>Dear participant <span class="js-pid pid"></span>,
+                    thank you for participating!
+                    Please read the instructions before the experiment.
+            </div>
+
+            <div class="wow fadeInUp">
+                <h2> Process </h2>
+                <img src="img/steps.png" class="acp-img">
+                <P> The steps for The Experiment are as follows:
+                <ol><li>A <B>pre-trial</B> will be conducted immediately after you press 'Next'. This is to familiarize you with the copy-paste techniques.</li>
+                    <li>Next, the real experiment will involve <B>27 trials</B> (copy-paste tasks) per technique. You will be given a <B>one minute break</B> every time you complete the trials for one technique. </li>
+                    <li>Since there are two techniques, there will be 54 trials for one experimental set. You will <B>repeat</B> the set 3 times in total.</li>
+                </ol>
+                </P>
+            </div>
+
+            <div class="wow fadeInUp">
+                <h2> What you'll do </h2>
+                <img src="img/diagram.PNG" class="acp-img">
+            </div>
+
+            <div class="wow fadeInUp">
+                <h2> The techniques </h2>
+                <div class="col-md-4">
+                    <h3>Traditional</h3>
+                    Use <span class="key">CTRL + C</span>, <span class="key">CTRL + V</span> to copy and paste highlighted text.
+                </div>
+                <div class="col-md-8">
+                    <h3>AutoComPaste</h3>
+                    Start by typing the text in the Text Editor window. A dropdown list will appear with possible suggestions.<P></P><b>Pasting text</b><br> Use arrow keys <span class="key">↑</span> <span class="key">↓</span> to select your desired text and press <span class="key">Enter</span>. <P><b>Pasting sentences</b><br>Use arrow key <span class="key">→</span> to paste the next sentence which comes after the current sentence.
                 </div>
             </div>
-        </nav>
-
-        <div class="container acp-container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <center><img style="margin-top: 50px;" src="img/cc.png" class="circle-img"></center>
-
-                    <h1>Instructions</h1>
-
-                    <p>Dear participant <span class="js-pid pid"></span>,
-                        thank you for participating!
-                        Please read the instructions before the experiment.
-
-                    <h2> Process </h2>
-                    <img src="img/steps.png" class="acp-img">
-                    <P> The steps for The Experiment are as follows:
-                        <ol><li>A <B>pre-trial</B> will be conducted immediately after you press 'Next'. This is to familiarize you with the copy-paste techniques.</li>
-                            <li>Next, the real experiment will involve <B>27 trials</B> (copy-paste tasks) per technique. You will be given a <B>one minute break</B> every time you complete the trials for one technique. </li>
-                            <li>Since there are two techniques, there will be 54 trials for one experimental set. You will <B>repeat</B> the set 3 times in total.</li>
-                        </ol>
-                    </P>
-
-                    <h2> What you'll do </h2>
-                    <img src="img/diagram.PNG" class="acp-img">
-
-                    <h2> The techniques </h2>
-                    <div class="col-md-4">
-                        <h3>Traditional</h3>
-                        Use <span class="key">CTRL + C</span>, <span class="key">CTRL + V</span> to copy and paste highlighted text.
-                    </div>
-                    <div class="col-md-8">
-                        <h3>AutoComPaste</h3>
-                        Start by typing the text in the Text Editor window. A dropdown list will appear with possible suggestions.<P></P><b>Pasting text</b><br> Use arrow keys <span class="key">↑</span> <span class="key">↓</span> to select your desired text and press <span class="key">Enter</span>. <P><b>Pasting sentences</b><br>Use arrow key <span class="key">→</span> to paste the next sentence which comes after the current sentence.
-                    </div>
 
 
-                    <div class="col-xs-12" style="margin-top: 50px; text-align: right;">
-                    <form class="form-inline">
-                        Ready? Press <button type="submit" class="btn btn-primary btn-lg">Next</button>
-                    </form>
-                    </div>
-                </div>
+            <div class="col-xs-12 wow slideInRight" style="margin-top: 50px; text-align: right;">
+                <form class="form-inline">
+                    Ready? Press <button type="submit" class="btn btn-primary btn-lg">Next</button>
+                </form>
             </div>
         </div>
+    </div>
+</div>
 
-        <script src="js/vendor/jquery-1.11.2.min.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/DataStorage.js"></script>
-        <script src="js/ACPToolKit.js"></script>
-        <script src="js/main.js"></script>
+<script src="js/vendor/jquery-1.11.2.min.js"></script>
+<script src="js/vendor/wow.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/DataStorage.js"></script>
+<script src="js/ACPToolKit.js"></script>
+<script src="js/main.js"></script>
 
-        <script>
-            $(function () {
-                $('form').submit(function (event) {
-                    event.preventDefault();
-                    window.location = 'experiment.html';
-                });
-            });
-        </script>
-    </body>
+<script>
+    new WOW().init();
+    $(function () {
+        $('form').submit(function (event) {
+            event.preventDefault();
+            window.location = 'experiment.html';
+        });
+    });
+</script>
+</body>
 </html>
