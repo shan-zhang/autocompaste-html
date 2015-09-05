@@ -114,6 +114,17 @@ pre {
   padding: 7% 7% 15px;
 }
 
+.acp-important {
+  color: #a40000;
+  font-weight: 700;
+}
+
+.acp-pidform {
+  background-color: #f8f8f8;
+  padding: 28px;
+  text-align: center;
+}
+
 .autocompaste-textarea {
   padding: 5px;
   line-height: 1.4;
@@ -135,6 +146,25 @@ pre {
 .navbar {
   margin-bottom: 0;
 }
+
+.navbar-default {
+  border: 0px;
+}
+
+.nav > li {
+  border-bottom: 4px solid #F8F8F8;
+}
+
+.nav > li.active {
+  border-bottom: 4px solid #2D89E1;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+  color: #2D89E1;
+  background-color: #EAF4FE;
+  font-weight: 700;
+}
+
 
 /**
  * Main ACP styles
