@@ -33,7 +33,7 @@ AutoComPaste.Interface = (function () {
   /**
    * The class constructor.
    */
-  function Interface (wm, engine, texts_json) {
+  function Interface (wm, engine, texts_json, windows_to_open) {
     /** Internal functions */
     this._showError = function _showerror() {
       document.getElementById('error-overlay').style.display = 'block';
@@ -109,11 +109,18 @@ AutoComPaste.Interface = (function () {
         //
         // For every text that we find, we create a new window for it.
         console.log("Interface._fetchTextComplete: Finished fetching all texts");
-
+        var currentText = 0;
         for (var text_title in privates.texts) {
-          if (privates.texts.hasOwnProperty(text_title)) {
-            console.log("Interface._fetchTextComplete: Creating window for text \"" + text_title + "\"");
-            iface._createWindowForText(text_title);
+          currentText++;
+
+          // Musho: ONLY CREATE WINDOW IF ITS INSIDE WINDOWS_TO_OPEN!!
+          if ($.inArray(currentText, windows_to_open) != -1) {
+            if (privates.texts.hasOwnProperty(text_title)) {
+              console.log("Interface._fetchTextComplete: Creating window for text \"" + text_title + "\"");
+              iface._createWindowForText(text_title);
+            }
+          } else {
+            console.log("This text " + currentText + "isn't in the windows to open list: " + windows_to_open);
           }
         }
 

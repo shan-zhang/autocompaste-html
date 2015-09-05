@@ -80,6 +80,7 @@ var ACPToolKit = (function () {
             currentTrialOptions = options;
 
             var data_file = options.data_file;
+            var windows_to_open = options.windows_to_open;
             var stimuli = options.stimuli;
 
             $('.js-expt-technique').text(options.technique);
@@ -105,7 +106,7 @@ var ACPToolKit = (function () {
                     break;
             }
 
-            var iface = new AutoComPaste.Interface(wm, engine, data_file);
+            var iface = new AutoComPaste.Interface(wm, engine, data_file, windows_to_open);
 
             // Highlight the relevant text.
             iface.addEventListener('loaded', function () {
