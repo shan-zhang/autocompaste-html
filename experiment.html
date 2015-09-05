@@ -123,7 +123,20 @@
     }
 
     $(document).ready(function () {
-        $.get('data/experiments.json', function (data) {
+        // load to correct experiments.json
+        pid = ACPToolKit.getCurrentParticipantId();
+        if (pid) {
+            var experimentjson = 'data/experiments' + pid + '.json';
+        } else {
+            // invalid pid
+            var experimentjson = 'data/experiments1.json';
+            alert('Invalid pid, please re-enter.');
+            window.location = "index.html";
+        }
+        console.log(experimentjson);
+
+
+        $.get(experimentjson, function (data) {
             trialsData = data.experiments;
             currentTrial = 0;
             totalNumberOfTrials = trialsData.length;
