@@ -159,7 +159,7 @@ AutoComPaste.Interface = (function () {
 
     this._createWindowForText = function _createWindowForText (text_title) {
       
-      privates.wm.createWindow(text_title, 500, 400);
+      privates.wm.createWindow(text_title, 300, 200);
       privates.wm.setWindowTitle(text_title, text_title);
       privates.wm.setWindowContent(text_title,
         $(document.createElement('pre'))
@@ -171,7 +171,7 @@ AutoComPaste.Interface = (function () {
       //
       // safety_bounds ensures that the window is at least some pixels within 
       // the boundaries of the display.
-      var safety_bounds = 50;
+      var safety_bounds = 200;
       privates.wm.moveWindowTo(text_title,
         Math.random() * (privates.wm.getDisplayWidth() - safety_bounds) + (safety_bounds / 2),
         Math.random() * (privates.wm.getDisplayHeight() - safety_bounds) + (safety_bounds / 2)

@@ -5,42 +5,42 @@
             "granularity": "sentence",
             "windows": "5",
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?" 
+            "stimuli": "Kangaroos are marsupial animals that are found in Australia as well as New Guinea."
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "windows": "5",
             "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage." 
+            "stimuli": "Frogs are amphibians. They lay their eggs in water. The eggs hatch into a tadpole which lives in water until it metamorphoses into an adult frog. Instead of drinking water, frogs soak it into their body through their skin."
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "windows": "5",
             "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
+            "stimuli": "characterised by feathers"
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "windows": "10",
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?" 
+            "stimuli": "Kangaroos are marsupial animals that are found in Australia as well as New Guinea."
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "windows": "10",
             "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage." 
+            "stimuli": "Kangaroos are marsupial animals that are found in Australia as well as New Guinea."
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "windows": "10",
             "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
+            "stimuli": "Kangaroos are marsupial animals that are found in Australia as well as New Guinea."
         }        
     ]
 }
