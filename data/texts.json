@@ -1,42 +1,42 @@
 [
     {
-        "title": "Article 1 - Cats 🐱",
+        "title": "1. Cats 🐱",
         "url": "data/articles/a1.txt"
     },
     {
-        "title": "Article 2 - Dogs 🐶",
+        "title": "2. Dogs 🐶",
         "url": "data/articles/a2.txt"
     },
     {
-        "title": "Article 3 - Birds 🐤",
+        "title": "3. Birds 🐤",
         "url": "data/articles/a3.txt"
     },
     {
-        "title": "Article 4 - Rabbits 🐰",
+        "title": "4. Rabbits 🐰",
         "url": "data/articles/a4.txt"
     },
     {
-        "title": "Article 5 - Kangaroos 🐭",
+        "title": "5. Kangaroos 🐭",
         "url": "data/articles/a5.txt"
     },
     {
-        "title": "Article 6 - Dolphins 🐬",
+        "title": "6. Dolphins 🐬",
         "url": "data/articles/a6.txt"
     },
     {
-        "title": "Article 7 - Frogs 🐸",
+        "title": "7. Frogs 🐸",
         "url": "data/articles/a7.txt"
     },
     {
-        "title": "Article 8 - Sharks 🐟",
+        "title": "8. Sharks 🐟",
         "url": "data/articles/a8.txt"
     },
     {
-        "title": "Article 9 - Giraffes 🐾",
+        "title": "9. Giraffes 🐾",
         "url": "data/articles/a9.txt"
     },
     {
-        "title": "Article 10 - Whales 🐳",
+        "title": "10. Whales 🐳",
         "url": "data/articles/a10.txt"
     }
 ]

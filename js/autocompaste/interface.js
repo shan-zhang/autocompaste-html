@@ -109,9 +109,9 @@ AutoComPaste.Interface = (function () {
         //
         // For every text that we find, we create a new window for it.
         console.log("Interface._fetchTextComplete: Finished fetching all texts");
-        var currentText = 0;
         for (var text_title in privates.texts) {
-          currentText++;
+          var textArray = text_title.split(".");
+          var currentText = parseInt(textArray[0]);
 
           // Musho: ONLY CREATE WINDOW IF ITS INSIDE WINDOWS_TO_OPEN!!
           if ($.inArray(currentText, windows_to_open) != -1) {
