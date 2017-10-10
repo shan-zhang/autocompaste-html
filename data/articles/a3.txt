@@ -1,1 +1,17 @@
-Birds are a group of endothermic vertebrates, characterised by feathers, a beak with no teeth, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a lightweight but strong skeleton. There are over 10,000 living species of bird on Earth and they live on all continents including the Arctic and Antarctica. Birds are social creatures which is why they travel in a flock.
+What is ampere? Unit of electrical current. 12 is the number
+
+What is amplifier? A circuit that increases the voltage, current, or power of a signal.
+
+What is amplitude? Magnitude or size of a signal voltage or current.
+
+What is analog? Information represented as continuously varying voltage or current rather than in discrete levels as opposed to digital data varying between two discrete levels.
+
+What is anode? The positive electrode or terminal of a device. The "P" material of a diode.
+
+What is antenna, receiving? A device that converts a radiated electromagnetic wave into an electrical wave.
+
+What is apparent power? Power attained in an AC circuit as a product of effective voltage and current which reach their peak at different times.
+
+What is armature? The rotating or moving component of a magnetic circuit.
+
+What is armstrong oscillator? An oscillator that uses an isolation transformer to achieve positive feedback from output to input.

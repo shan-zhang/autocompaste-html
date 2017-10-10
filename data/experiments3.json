@@ -2,2328 +2,2004 @@
     "experiments":
 
     [
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                1
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "The domestic cat is a small, usually furry, domesticated, and carnivorous mammal. They are often called housecats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                3
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Birds are a group of endothermic vertebrates, characterised by feathers, a beak with no teeth, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a lightweight but strong skeleton. There are over 10,000 living species of bird on Earth and they live on all continents including the Arctic and Antarctica. Birds are social creatures which is why they travel in a flock."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                5
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Kangaroos are marsupial animals that are found in Australia as well as New Guinea. Kangaroos cannot walk backwards. Kangaroos have very powerful legs and can be dangerous at times."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                1
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "felids and felines"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                3
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "lightweight but strong skeleton"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                5
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "walk backwards"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                1
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "They are often called housecats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                3
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Birds are a group of endothermic vertebrates, characterised by feathers, a beak with no teeth, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a lightweight but strong skeleton."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                5
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Kangaroos are marsupial animals that are found in Australia as well as New Guinea."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                1,
-                3,
-                5,
-                6,
-                7
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "The domestic cat is a small, usually furry, domesticated, and carnivorous mammal. They are often called housecats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                1,
-                3,
-                5,
-                6,
-                7
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Birds are a group of endothermic vertebrates, characterised by feathers, a beak with no teeth, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a lightweight but strong skeleton. There are over 10,000 living species of bird on Earth and they live on all continents including the Arctic and Antarctica. Birds are social creatures which is why they travel in a flock."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                1,
-                3,
-                5,
-                6,
-                7
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Kangaroos are marsupial animals that are found in Australia as well as New Guinea. Kangaroos cannot walk backwards. Kangaroos have very powerful legs and can be dangerous at times."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                1,
-                3,
-                5,
-                6,
-                7
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "domestic cat"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                1,
-                3,
-                5,
-                6,
-                7
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "hard-shelled eggs"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                1,
-                3,
-                5,
-                6,
-                7
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "marsupial animals"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                1,
-                3,
-                5,
-                6,
-                7
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "They are often called housecats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                1,
-                3,
-                5,
-                6,
-                7
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Birds are social creatures which is why they travel in a flock."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                1,
-                3,
-                5,
-                6,
-                7
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Kangaroos are marsupial animals that are found in Australia as well as New Guinea."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "The domestic cat is a small, usually furry, domesticated, and carnivorous mammal. They are often called housecats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Birds are a group of endothermic vertebrates, characterised by feathers, a beak with no teeth, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a lightweight but strong skeleton. There are over 10,000 living species of bird on Earth and they live on all continents including the Arctic and Antarctica. Birds are social creatures which is why they travel in a flock."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Kangaroos are marsupial animals that are found in Australia as well as New Guinea. Kangaroos cannot walk backwards. Kangaroos have very powerful legs and can be dangerous at times."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "often called housecats"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "hard-shelled eggs"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "very powerful legs"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "The domestic cat is a small, usually furry, domesticated, and carnivorous mammal."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Birds are a group of endothermic vertebrates, characterised by feathers, a beak with no teeth, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a lightweight but strong skeleton."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Kangaroos have very powerful legs and can be dangerous at times."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                1
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "The domestic cat is a small, usually furry, domesticated, and carnivorous mammal. They are often called housecats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                3
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Birds are a group of endothermic vertebrates, characterised by feathers, a beak with no teeth, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a lightweight but strong skeleton. There are over 10,000 living species of bird on Earth and they live on all continents including the Arctic and Antarctica. Birds are social creatures which is why they travel in a flock."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                5
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Kangaroos are marsupial animals that are found in Australia as well as New Guinea. Kangaroos cannot walk backwards. Kangaroos have very powerful legs and can be dangerous at times."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                1
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "domestic cat"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                3
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "hard-shelled eggs"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                5
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "marsupial animals"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                1
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "The domestic cat is a small, usually furry, domesticated, and carnivorous mammal."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                3
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Birds are a group of endothermic vertebrates, characterised by feathers, a beak with no teeth, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a lightweight but strong skeleton."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                5
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Kangaroos cannot walk backwards."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                1,
-                3,
-                5,
-                6,
-                7
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "The domestic cat is a small, usually furry, domesticated, and carnivorous mammal. They are often called housecats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                1,
-                3,
-                5,
-                6,
-                7
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Birds are a group of endothermic vertebrates, characterised by feathers, a beak with no teeth, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a lightweight but strong skeleton. There are over 10,000 living species of bird on Earth and they live on all continents including the Arctic and Antarctica. Birds are social creatures which is why they travel in a flock."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                1,
-                3,
-                5,
-                6,
-                7
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Kangaroos are marsupial animals that are found in Australia as well as New Guinea. Kangaroos cannot walk backwards. Kangaroos have very powerful legs and can be dangerous at times."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                1,
-                3,
-                5,
-                6,
-                7
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "often called housecats"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                1,
-                3,
-                5,
-                6,
-                7
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "characterised by feathers"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                1,
-                3,
-                5,
-                6,
-                7
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "walk backwards"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                1,
-                3,
-                5,
-                6,
-                7
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "The domestic cat is a small, usually furry, domesticated, and carnivorous mammal."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                1,
-                3,
-                5,
-                6,
-                7
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "There are over 10,000 living species of bird on Earth and they live on all continents including the Arctic and Antarctica."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                1,
-                3,
-                5,
-                6,
-                7
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Kangaroos have very powerful legs and can be dangerous at times."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "The domestic cat is a small, usually furry, domesticated, and carnivorous mammal. They are often called housecats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Birds are a group of endothermic vertebrates, characterised by feathers, a beak with no teeth, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a lightweight but strong skeleton. There are over 10,000 living species of bird on Earth and they live on all continents including the Arctic and Antarctica. Birds are social creatures which is why they travel in a flock."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Kangaroos are marsupial animals that are found in Australia as well as New Guinea. Kangaroos cannot walk backwards. Kangaroos have very powerful legs and can be dangerous at times."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "domestic cat"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "lightweight but strong skeleton"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "very powerful legs"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "They are often called housecats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Birds are a group of endothermic vertebrates, characterised by feathers, a beak with no teeth, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a lightweight but strong skeleton."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Kangaroos cannot walk backwards."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                2
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "The domestic dog is a domesticated canid which has been selectively bred for millennia for various behaviors, sensory capabilities, and physical attributes. All dogs, regardless of breed, are direct descendants of wolves and technically of the same species."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                4
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Rabbits are affectionate social animals that enjoy the company of other rabbits. Rabbits stand upright on their hind legs to give themselves a better vantage point to look for predators. They alert other rabbits to the presence of danger by thumping their hind legs."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                7
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Frogs are amphibians. They lay their eggs in water. The eggs hatch into a tadpole which lives in water until it metamorphoses into an adult frog. Instead of drinking water, frogs soak it into their body through their skin."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                2
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "direct descendants of wolves"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                4
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "presence of danger"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                7
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "metamorphoses into an adult"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                2
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "All dogs, regardless of breed, are direct descendants of wolves and technically of the same species."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                4
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Rabbits are affectionate social animals that enjoy the company of other rabbits."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                7
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Instead of drinking water, frogs soak it into their body through their skin."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                2,
-                4,
-                7,
-                8,
-                9
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "The domestic dog is a domesticated canid which has been selectively bred for millennia for various behaviors, sensory capabilities, and physical attributes. All dogs, regardless of breed, are direct descendants of wolves and technically of the same species."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                2,
-                4,
-                7,
-                8,
-                9
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Rabbits are affectionate social animals that enjoy the company of other rabbits. Rabbits stand upright on their hind legs to give themselves a better vantage point to look for predators. They alert other rabbits to the presence of danger by thumping their hind legs."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                2,
-                4,
-                7,
-                8,
-                9
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Frogs are amphibians. They lay their eggs in water. The eggs hatch into a tadpole which lives in water until it metamorphoses into an adult frog. Instead of drinking water, frogs soak it into their body through their skin."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                2,
-                4,
-                7,
-                8,
-                9
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "domestic dog"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                2,
-                4,
-                7,
-                8,
-                9
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "thumping their hind legs"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                2,
-                4,
-                7,
-                8,
-                9
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "lay their eggs"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                2,
-                4,
-                7,
-                8,
-                9
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "All dogs, regardless of breed, are direct descendants of wolves and technically of the same species."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                2,
-                4,
-                7,
-                8,
-                9
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "They alert other rabbits to the presence of danger by thumping their hind legs."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                2,
-                4,
-                7,
-                8,
-                9
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Instead of drinking water, frogs soak it into their body through their skin."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "The domestic dog is a domesticated canid which has been selectively bred for millennia for various behaviors, sensory capabilities, and physical attributes. All dogs, regardless of breed, are direct descendants of wolves and technically of the same species."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Rabbits are affectionate social animals that enjoy the company of other rabbits. Rabbits stand upright on their hind legs to give themselves a better vantage point to look for predators. They alert other rabbits to the presence of danger by thumping their hind legs."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Frogs are amphibians. They lay their eggs in water. The eggs hatch into a tadpole which lives in water until it metamorphoses into an adult frog. Instead of drinking water, frogs soak it into their body through their skin."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "selectively bred for millennia"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "presence of danger"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "metamorphoses into an adult"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "All dogs, regardless of breed, are direct descendants of wolves and technically of the same species."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "They alert other rabbits to the presence of danger by thumping their hind legs."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Frogs are amphibians."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                2
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "The domestic dog is a domesticated canid which has been selectively bred for millennia for various behaviors, sensory capabilities, and physical attributes. All dogs, regardless of breed, are direct descendants of wolves and technically of the same species."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                4
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Rabbits are affectionate social animals that enjoy the company of other rabbits. Rabbits stand upright on their hind legs to give themselves a better vantage point to look for predators. They alert other rabbits to the presence of danger by thumping their hind legs."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                7
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Frogs are amphibians. They lay their eggs in water. The eggs hatch into a tadpole which lives in water until it metamorphoses into an adult frog. Instead of drinking water, frogs soak it into their body through their skin."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                2
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "selectively bred for millennia"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                4
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "presence of danger"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                7
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "lay their eggs"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                2
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "The domestic dog is a domesticated canid which has been selectively bred for millennia for various behaviors, sensory capabilities, and physical attributes."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                4
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Rabbits are affectionate social animals that enjoy the company of other rabbits."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                7
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Instead of drinking water, frogs soak it into their body through their skin."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                2,
-                4,
-                7,
-                8,
-                9
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "The domestic dog is a domesticated canid which has been selectively bred for millennia for various behaviors, sensory capabilities, and physical attributes. All dogs, regardless of breed, are direct descendants of wolves and technically of the same species."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                2,
-                4,
-                7,
-                8,
-                9
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Rabbits are affectionate social animals that enjoy the company of other rabbits. Rabbits stand upright on their hind legs to give themselves a better vantage point to look for predators. They alert other rabbits to the presence of danger by thumping their hind legs."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                2,
-                4,
-                7,
-                8,
-                9
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Frogs are amphibians. They lay their eggs in water. The eggs hatch into a tadpole which lives in water until it metamorphoses into an adult frog. Instead of drinking water, frogs soak it into their body through their skin."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                2,
-                4,
-                7,
-                8,
-                9
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "direct descendants of wolves"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                2,
-                4,
-                7,
-                8,
-                9
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "presence of danger"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                2,
-                4,
-                7,
-                8,
-                9
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "metamorphoses into an adult"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                2,
-                4,
-                7,
-                8,
-                9
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "All dogs, regardless of breed, are direct descendants of wolves and technically of the same species."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                2,
-                4,
-                7,
-                8,
-                9
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "They alert other rabbits to the presence of danger by thumping their hind legs."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                2,
-                4,
-                7,
-                8,
-                9
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Instead of drinking water, frogs soak it into their body through their skin."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "The domestic dog is a domesticated canid which has been selectively bred for millennia for various behaviors, sensory capabilities, and physical attributes. All dogs, regardless of breed, are direct descendants of wolves and technically of the same species."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Rabbits are affectionate social animals that enjoy the company of other rabbits. Rabbits stand upright on their hind legs to give themselves a better vantage point to look for predators. They alert other rabbits to the presence of danger by thumping their hind legs."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Frogs are amphibians. They lay their eggs in water. The eggs hatch into a tadpole which lives in water until it metamorphoses into an adult frog. Instead of drinking water, frogs soak it into their body through their skin."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "selectively bred for millennia"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "company of other rabbits"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "hatch into a tadpole"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "All dogs, regardless of breed, are direct descendants of wolves and technically of the same species."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Rabbits are affectionate social animals that enjoy the company of other rabbits."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "The eggs hatch into a tadpole which lives in water until it metamorphoses into an adult frog."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                6
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Dolphins are intelligent animals that display a wide range of unique behaviors. Dolphins use a blowhole on top of their heads to breathe. Dolphins communicate with each other by clicking, whistling and other sounds."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                8
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Although sharks have a reputation as destructive beasts that attack almost anything that enters their water habitat, the actual number of shark attacks is probably lower than you imagine. If a shark was put into a large swimming pool, it would be able to smell a single drop of blood in the water."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                10
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Whales are huge, warm-blooded, air breathing mammals that live in the sea. There are many different species including the blue whale, killer whale, humpback whale, orca and minke. Whales love to sing! They use this as a call to mates, a way to communicate and also just for fun!"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                6
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "whistling and other sounds"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                8
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "drop of blood"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                10
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "orca and minke"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                6
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Dolphins use a blowhole on top of their heads to breathe."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                8
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Although sharks have a reputation as destructive beasts that attack almost anything that enters their water habitat, the actual number of shark attacks is probably lower than you imagine."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 1,
-            "windows_to_open": [
-                10
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "They use this as a call to mates, a way to communicate and also just for fun."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                6,
-                8,
-                10,
-                1,
-                2
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Dolphins are intelligent animals that display a wide range of unique behaviors. Dolphins use a blowhole on top of their heads to breathe. Dolphins communicate with each other by clicking, whistling and other sounds."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                6,
-                8,
-                10,
-                1,
-                2
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Although sharks have a reputation as destructive beasts that attack almost anything that enters their water habitat, the actual number of shark attacks is probably lower than you imagine. If a shark was put into a large swimming pool, it would be able to smell a single drop of blood in the water."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                6,
-                8,
-                10,
-                1,
-                2
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Whales are huge, warm-blooded, air breathing mammals that live in the sea. There are many different species including the blue whale, killer whale, humpback whale, orca and minke. Whales love to sing! They use this as a call to mates, a way to communicate and also just for fun!"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                6,
-                8,
-                10,
-                1,
-                2
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "whistling and other sounds"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                6,
-                8,
-                10,
-                1,
-                2
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "water habitat"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                6,
-                8,
-                10,
-                1,
-                2
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "love to sing"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                6,
-                8,
-                10,
-                1,
-                2
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Dolphins are intelligent animals that display a wide range of unique behaviors."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                6,
-                8,
-                10,
-                1,
-                2
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "If a shark was put into a large swimming pool, it would be able to smell a single drop of blood in the water."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 5,
-            "windows_to_open": [
-                6,
-                8,
-                10,
-                1,
-                2
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Whales love to sing!"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Dolphins are intelligent animals that display a wide range of unique behaviors. Dolphins use a blowhole on top of their heads to breathe. Dolphins communicate with each other by clicking, whistling and other sounds."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Although sharks have a reputation as destructive beasts that attack almost anything that enters their water habitat, the actual number of shark attacks is probably lower than you imagine. If a shark was put into a large swimming pool, it would be able to smell a single drop of blood in the water."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Whales are huge, warm-blooded, air breathing mammals that live in the sea. There are many different species including the blue whale, killer whale, humpback whale, orca and minke. Whales love to sing! They use this as a call to mates, a way to communicate and also just for fun!"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "whistling and other sounds"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "water habitat"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "orca and minke"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Dolphins use a blowhole on top of their heads to breathe."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Although sharks have a reputation as destructive beasts that attack almost anything that enters their water habitat, the actual number of shark attacks is probably lower than you imagine."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Whales are huge, warm-blooded, air breathing mammals that live in the sea."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                6
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Dolphins are intelligent animals that display a wide range of unique behaviors. Dolphins use a blowhole on top of their heads to breathe. Dolphins communicate with each other by clicking, whistling and other sounds."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                8
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Although sharks have a reputation as destructive beasts that attack almost anything that enters their water habitat, the actual number of shark attacks is probably lower than you imagine. If a shark was put into a large swimming pool, it would be able to smell a single drop of blood in the water."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                10
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Whales are huge, warm-blooded, air breathing mammals that live in the sea. There are many different species including the blue whale, killer whale, humpback whale, orca and minke. Whales love to sing! They use this as a call to mates, a way to communicate and also just for fun!"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                6
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "whistling and other sounds"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                8
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "attack almost anything"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                10
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "orca and minke"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                6
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Dolphins use a blowhole on top of their heads to breathe."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                8
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Although sharks have a reputation as destructive beasts that attack almost anything that enters their water habitat, the actual number of shark attacks is probably lower than you imagine."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 1,
-            "windows_to_open": [
-                10
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Whales love to sing!"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                6,
-                8,
-                10,
-                1,
-                2
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Dolphins are intelligent animals that display a wide range of unique behaviors. Dolphins use a blowhole on top of their heads to breathe. Dolphins communicate with each other by clicking, whistling and other sounds."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                6,
-                8,
-                10,
-                1,
-                2
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Although sharks have a reputation as destructive beasts that attack almost anything that enters their water habitat, the actual number of shark attacks is probably lower than you imagine. If a shark was put into a large swimming pool, it would be able to smell a single drop of blood in the water."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                6,
-                8,
-                10,
-                1,
-                2
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Whales are huge, warm-blooded, air breathing mammals that live in the sea. There are many different species including the blue whale, killer whale, humpback whale, orca and minke. Whales love to sing! They use this as a call to mates, a way to communicate and also just for fun!"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                6,
-                8,
-                10,
-                1,
-                2
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "range of unique behaviors"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                6,
-                8,
-                10,
-                1,
-                2
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "attack almost anything"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                6,
-                8,
-                10,
-                1,
-                2
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "love to sing"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                6,
-                8,
-                10,
-                1,
-                2
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Dolphins use a blowhole on top of their heads to breathe."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                6,
-                8,
-                10,
-                1,
-                2
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Although sharks have a reputation as destructive beasts that attack almost anything that enters their water habitat, the actual number of shark attacks is probably lower than you imagine."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 5,
-            "windows_to_open": [
-                6,
-                8,
-                10,
-                1,
-                2
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Whales are huge, warm-blooded, air breathing mammals that live in the sea."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Dolphins are intelligent animals that display a wide range of unique behaviors. Dolphins use a blowhole on top of their heads to breathe. Dolphins communicate with each other by clicking, whistling and other sounds."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Although sharks have a reputation as destructive beasts that attack almost anything that enters their water habitat, the actual number of shark attacks is probably lower than you imagine. If a shark was put into a large swimming pool, it would be able to smell a single drop of blood in the water."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "stimuli": "Whales are huge, warm-blooded, air breathing mammals that live in the sea. There are many different species including the blue whale, killer whale, humpback whale, orca and minke. Whales love to sing! They use this as a call to mates, a way to communicate and also just for fun!"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "range of unique behaviors"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "water habitat"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "live in the sea"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Dolphins are intelligent animals that display a wide range of unique behaviors."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Although sharks have a reputation as destructive beasts that attack almost anything that enters their water habitat, the actual number of shark attacks is probably lower than you imagine."
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "windows": 10,
-            "windows_to_open": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "stimuli": "Whales love to sing!"
-        }
-    ]
 
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                1
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is active filter? A filter that uses an amplifier in addition to reactive components to pass or reject selected frequencies."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                3
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is amplifier? A circuit that increases the voltage, current, or power of a signal."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                5
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is bistable multivibrator? A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. Also called a latch."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                1
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "active region"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                3
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "a radiated electromagnetic wave"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                5
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "the band of frequencies"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                1
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "A component that changes the amplitude of a signal between input and output."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                3
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "A device that converts a radiated electromagnetic wave into an electrical wave."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                5
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "A DC voltage source containing two or more cells that convert chemical energy to electrical energy."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 3,
+            "windows_to_open": [
+                1,
+                3,
+                5
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is active filter? A filter that uses an amplifier in addition to reactive components to pass or reject selected frequencies."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 3,
+            "windows_to_open": [
+                1,
+                3,
+                5
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is amplifier? A circuit that increases the voltage, current, or power of a signal."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 3,
+            "windows_to_open": [
+                1,
+                3,
+                5
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is bistable multivibrator? A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. Also called a latch."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 3,
+            "windows_to_open": [
+                1,
+                3,
+                5
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "saturation and cut off"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 3,
+            "windows_to_open": [
+                1,
+                3,
+                5
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "a signal voltage"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 3,
+            "windows_to_open": [
+                1,
+                3,
+                5
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "two or more cells"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 3,
+            "windows_to_open": [
+                1,
+                3,
+                5
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "A component that changes the amplitude of a signal between input and output."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 3,
+            "windows_to_open": [
+                1,
+                3,
+                5
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "A device that converts a radiated electromagnetic wave into an electrical wave."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 3,
+            "windows_to_open": [
+                1,
+                3,
+                5
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "A method of biasing a BJT in which the bias voltage is supplied to the base by means of a resistor."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is active filter? A filter that uses an amplifier in addition to reactive components to pass or reject selected frequencies."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is amplifier? A circuit that increases the voltage, current, or power of a signal."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is bistable multivibrator? A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. Also called a latch."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "passes an AC signal"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "an isolation transformer"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "having only two symbols"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "Loss or dissipation of energy as it travels through a medium."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "An oscillator that uses an isolation transformer to achieve positive feedback from output to input."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "A method of biasing a BJT in which the bias voltage is supplied to the base by means of a resistor."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                1
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is active filter? A filter that uses an amplifier in addition to reactive components to pass or reject selected frequencies."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                3
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is amplifier? A circuit that increases the voltage, current, or power of a signal."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                5
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is bistable multivibrator? A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. Also called a latch."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                1
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "active region"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                3
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "a radiated electromagnetic wave"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                5
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "the band of frequencies"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                1
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "A component that changes the amplitude of a signal between input and output."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                3
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "A device that converts a radiated electromagnetic wave into an electrical wave."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                5
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "A DC voltage source containing two or more cells that convert chemical energy to electrical energy."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 3,
+            "windows_to_open": [
+                1,
+                3,
+                5
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is active filter? A filter that uses an amplifier in addition to reactive components to pass or reject selected frequencies."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 3,
+            "windows_to_open": [
+                1,
+                3,
+                5
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is amplifier? A circuit that increases the voltage, current, or power of a signal."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 3,
+            "windows_to_open": [
+                1,
+                3,
+                5
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is bistable multivibrator? A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. Also called a latch."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 3,
+            "windows_to_open": [
+                1,
+                3,
+                5
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "saturation and cut off"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 3,
+            "windows_to_open": [
+                1,
+                3,
+                5
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "a signal voltage"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 3,
+            "windows_to_open": [
+                1,
+                3,
+                5
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "two or more cells"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 3,
+            "windows_to_open": [
+                1,
+                3,
+                5
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "A component that changes the amplitude of a signal between input and output."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 3,
+            "windows_to_open": [
+                1,
+                3,
+                5
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "A device that converts a radiated electromagnetic wave into an electrical wave."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 3,
+            "windows_to_open": [
+                1,
+                3,
+                5
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "A method of biasing a BJT in which the bias voltage is supplied to the base by means of a resistor."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is active filter? A filter that uses an amplifier in addition to reactive components to pass or reject selected frequencies."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is amplifier? A circuit that increases the voltage, current, or power of a signal."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is bistable multivibrator? A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. Also called a latch."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "passes an AC signal"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "an isolation transformer"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "having only two symbols"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "Loss or dissipation of energy as it travels through a medium."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "An oscillator that uses an isolation transformer to achieve positive feedback from output to input."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "A method of biasing a BJT in which the bias voltage is supplied to the base by means of a resistor."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                2
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is alternating current? An electric current that rises to a maximum in one direction, falls back to zero and then rises to a maximum in the opposite direction and then repeats."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                4
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is audio? Relating to frequencies that can be heard by the human ear. Approximately 20 Hz to 20 kHz."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                2
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "a bipolar junction"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                4
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "a bridge circuit"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "every common noun"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                2
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "A meter used to measure current."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                4
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "What is autotransformer?"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                4,
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is alternating current? An electric current that rises to a maximum in one direction, falls back to zero and then rises to a maximum in the opposite direction and then repeats."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                4,
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is audio? Relating to frequencies that can be heard by the human ear. Approximately 20 Hz to 20 kHz."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                4,
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                4,
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "measure current"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                4,
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "taps on the winding"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                4,
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "a special part of speech"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                4,
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "A primary cell that delivers more current than a carbon-zinc cell."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                4,
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "The number of positive charges or protons in the nucleus of an atom."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                4,
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is alternating current? An electric current that rises to a maximum in one direction, falls back to zero and then rises to a maximum in the opposite direction and then repeats."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is audio? Relating to frequencies that can be heard by the human ear. Approximately 20 Hz to 20 kHz."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "the opposite direction"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "the area of the wave"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "a type of adjective"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "Name for an AC generator."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "Condition that occurs when a bridge circuit is adjusted to produce a zero output."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "Every noun must be accompanied by the article, if any, corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                2
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is alternating current? An electric current that rises to a maximum in one direction, falls back to zero and then rises to a maximum in the opposite direction and then repeats."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                4
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is audio? Relating to frequencies that can be heard by the human ear. Approximately 20 Hz to 20 kHz."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                2
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "a bipolar junction"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                4
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "a bridge circuit"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "every common noun"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                2
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "A meter used to measure current."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                4
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "What is autotransformer?"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                4,
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is alternating current? An electric current that rises to a maximum in one direction, falls back to zero and then rises to a maximum in the opposite direction and then repeats."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                4,
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is audio? Relating to frequencies that can be heard by the human ear. Approximately 20 Hz to 20 kHz."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                4,
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                4,
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "measure current"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                4,
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "taps on the winding"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                4,
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "a special part of speech"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                4,
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "A primary cell that delivers more current than a carbon-zinc cell."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                4,
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "The number of positive charges or protons in the nucleus of an atom."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                4,
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is alternating current? An electric current that rises to a maximum in one direction, falls back to zero and then rises to a maximum in the opposite direction and then repeats."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is audio? Relating to frequencies that can be heard by the human ear. Approximately 20 Hz to 20 kHz."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "the opposite direction"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "the area of the wave"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "a type of adjective"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "Name for an AC generator."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "Condition that occurs when a bridge circuit is adjusted to produce a zero output."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "Every noun must be accompanied by the article, if any, corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                2
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is alternating current? An electric current that rises to a maximum in one direction, falls back to zero and then rises to a maximum in the opposite direction and then repeats."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                3
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is amplifier? A circuit that increases the voltage, current, or power of a signal."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                2
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "measure current"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+              3
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "a signal voltage"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "a special part of speech"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                2
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "A primary cell that delivers more current than a carbon-zinc cell."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                3
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "A device that converts a radiated electromagnetic wave into an electrical wave."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 1,
+            "windows_to_open": [
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                3,
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is alternating current? An electric current that rises to a maximum in one direction, falls back to zero and then rises to a maximum in the opposite direction and then repeats."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                3,
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is amplifier? A circuit that increases the voltage, current, or power of a signal."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                3,
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                3,
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "the opposite direction"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                3,
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "a radiated electromagnetic wave"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                3,
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "every common noun"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                3,
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "Name for an AC generator."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                3,
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "A device that converts a radiated electromagnetic wave into an electrical wave."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                3,
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "Every noun must be accompanied by the article, if any, corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is alternating current? An electric current that rises to a maximum in one direction, falls back to zero and then rises to a maximum in the opposite direction and then repeats."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is amplifier? A circuit that increases the voltage, current, or power of a signal."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "a bipolar junction"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 6,
+            "windows_to_open": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "an isolation transformer"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 6,
+            "windows_to_open": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "a type of adjective"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 6,
+            "windows_to_open": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "A meter used to measure current."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 6,
+            "windows_to_open": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "An oscillator that uses an isolation transformer to achieve positive feedback from output to input."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                2
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is alternating current? An electric current that rises to a maximum in one direction, falls back to zero and then rises to a maximum in the opposite direction and then repeats."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                3
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is amplifier? A circuit that increases the voltage, current, or power of a signal."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                2
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "measure current"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                3
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "a signal voltage"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "a special part of speech"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                2
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "A primary cell that delivers more current than a carbon-zinc cell."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                3
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "A device that converts a radiated electromagnetic wave into an electrical wave."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 1,
+            "windows_to_open": [
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "This is in contrast to other adjectives and determiners, which are typically optional."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                3,
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is alternating current? An electric current that rises to a maximum in one direction, falls back to zero and then rises to a maximum in the opposite direction and then repeats."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                3,
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is amplifier? A circuit that increases the voltage, current, or power of a signal."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                3,
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                3,
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "the opposite direction"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                3,
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "a radiated electromagnetic wave"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                3,
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "every common noun"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                3,
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "Name for an AC generator."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                3,
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "A device that converts a radiated electromagnetic wave into an electrical wave."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 3,
+            "windows_to_open": [
+                2,
+                3,
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "Every noun must be accompanied by the article, if any, corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is alternating current? An electric current that rises to a maximum in one direction, falls back to zero and then rises to a maximum in the opposite direction and then repeats."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "What is amplifier? A circuit that increases the voltage, current, or power of a signal."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "a bipolar junction"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "an isolation transformer"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "phrase",
+            "data_file": "data/texts.json",
+            "stimuli": "a type of adjective"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "A meter used to measure current."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "An oscillator that uses an isolation transformer to achieve positive feedback from output to input."
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "windows": 6,
+            "windows_to_open": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "granularity": "sentence",
+            "data_file": "data/texts.json",
+            "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number."
+        },
+    ]
 }

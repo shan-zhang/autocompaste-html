@@ -17,54 +17,42 @@
 
         // the conditions
         var block = 0; // 0, 1, 2
-        var w = [1, 5, 10];
+        var w = [1, 3, 6];
         var t = ["AUTOCOMPASTE", "TRADITIONAL"]; // *SWITCH* for P4, 5, 6
         var g = ["phrase", "sentence", "paragraph"]; // *SWITCH* for all P
 
-        var fiveWindowCombo = [[1,3,5,6,7], [2,4,7,8,9], [6,8,10,1,2]]; // which 5 windows to open
-        var articleNos = [[1, 3, 5], [2, 4, 7], [6, 8, 10]];
-        var topics = ["", "cats", "dogs", "birds", "rabbits", "kanga", "dolphins", "frogs", "sharks", "giraffes", "whales"];
+        var threeWindowCombo = [[1,3,5], [2,4,6], [2,3,6]]; // which 3 windows to open
+        var articleNos = [[1, 3, 5], [2, 4, 6], [2, 3, 6]];
+        var topics = ["", "Data 1", "Data 2", "Article 3", "Article 4", "Article 5", "Article 6"];
 
         var phrases = [
             [],
-            ["often called housecats", "felids and felines", "domestic cat"],
-            ["domestic dog", "direct descendants of wolves", "selectively bred for millennia"],
-            ["characterised by feathers", "lightweight but strong skeleton", "hard-shelled eggs"],
-            ["company of other rabbits", "presence of danger", "thumping their hind legs"],
-            ["very powerful legs", "marsupial animals", "walk backwards"],
-            ["range of unique behaviors", "blowhole on top", "whistling and other sounds"],
-            ["lay their eggs", "hatch into a tadpole", "metamorphoses into an adult"],
-            ["attack almost anything", "water habitat", "drop of blood"],
-            ["tallest land animals", "African savannas", "giraffe's habitat"],
-            ["live in the sea", "orca and minke", "love to sing"],
+            ["active region","saturation and cut off","passes an AC signal"],
+            ["measure current","a bipolar junction","the opposite direction"],
+            ["a signal voltage","an isolation transformer","a radiated electromagnetic wave"],
+            ["a bridge circuit","taps on the winding","the area of the wave"],
+            ["the band of frequencies","two or more cells","having only two symbols"],
+            ["every common noun","a special part of speech","a type of adjective"],
         ];
 
         var sentences = [
             [],
-            ["The domestic cat is a small, usually furry, domesticated, and carnivorous mammal.", "They are often called housecats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines."],
-            ["The domestic dog is a domesticated canid which has been selectively bred for millennia for various behaviors, sensory capabilities, and physical attributes.", "All dogs, regardless of breed, are direct descendants of wolves and technically of the same species."],
-            ["There are over 10,000 living species of bird on Earth and they live on all continents including the Arctic and Antarctica.", "Birds are social creatures which is why they travel in a flock.", "Birds are a group of endothermic vertebrates, characterised by feathers, a beak with no teeth, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a lightweight but strong skeleton."],
-            ["Rabbits are affectionate social animals that enjoy the company of other rabbits.", "Rabbits stand upright on their hind legs to give themselves a better vantage point to look for predators.", "They alert other rabbits to the presence of danger by thumping their hind legs."],
-            ["Kangaroos are marsupial animals that are found in Australia as well as New Guinea.", "Kangaroos cannot walk backwards.", "Kangaroos have very powerful legs and can be dangerous at times."],
-            ["Dolphins are intelligent animals that display a wide range of unique behaviors.", "Dolphins use a blowhole on top of their heads to breathe.", "Dolphins communicate with each other by clicking, whistling and other sounds."],
-            ["Frogs are amphibians.", "They lay their eggs in water.", "The eggs hatch into a tadpole which lives in water until it metamorphoses into an adult frog.", "Instead of drinking water, frogs soak it into their body through their skin."],
-            ["Although sharks have a reputation as destructive beasts that attack almost anything that enters their water habitat, the actual number of shark attacks is probably lower than you imagine.", "If a shark was put into a large swimming pool, it would be able to smell a single drop of blood in the water."],
-            ["Giraffes are the tallest land animals on earth thanks in part to their distinctive necks which alone can reach almost 2 meters in height.", "A giraffe's habitat is usually found in African savannas, grasslands or open woodlands."],
-            ["Whales are huge, warm-blooded, air breathing mammals that live in the sea.", "There are many different species including the blue whale, killer whale, humpback whale, orca and minke.", "Whales love to sing!", "They use this as a call to mates, a way to communicate and also just for fun."],
+            ["A component that changes the amplitude of a signal between input and output.","Loss or dissipation of energy as it travels through a medium."],
+            ["A meter used to measure current.","A primary cell that delivers more current than a carbon-zinc cell.","Name for an AC generator."],
+            ["A device that converts a radiated electromagnetic wave into an electrical wave.","An oscillator that uses an isolation transformer to achieve positive feedback from output to input."],
+            ["Condition that occurs when a bridge circuit is adjusted to produce a zero output.","The number of positive charges or protons in the nucleus of an atom.","What is autotransformer?"],
+            ["A DC voltage source containing two or more cells that convert chemical energy to electrical energy.","A method of biasing a BJT in which the bias voltage is supplied to the base by means of a resistor."],
+            ["Every noun must be accompanied by the article, if any, corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness.","This is in contrast to other adjectives and determiners, which are typically optional.","In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number."],
         ];
 
         var paragraphs = [
             [],
-            ["The domestic cat is a small, usually furry, domesticated, and carnivorous mammal. They are often called housecats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines."],
-            ["The domestic dog is a domesticated canid which has been selectively bred for millennia for various behaviors, sensory capabilities, and physical attributes. All dogs, regardless of breed, are direct descendants of wolves and technically of the same species."],
-            ["Birds are a group of endothermic vertebrates, characterised by feathers, a beak with no teeth, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a lightweight but strong skeleton. There are over 10,000 living species of bird on Earth and they live on all continents including the Arctic and Antarctica. Birds are social creatures which is why they travel in a flock."],
-            ["Rabbits are affectionate social animals that enjoy the company of other rabbits. Rabbits stand upright on their hind legs to give themselves a better vantage point to look for predators. They alert other rabbits to the presence of danger by thumping their hind legs."],
-            ["Kangaroos are marsupial animals that are found in Australia as well as New Guinea. Kangaroos cannot walk backwards. Kangaroos have very powerful legs and can be dangerous at times."],
-            ["Dolphins are intelligent animals that display a wide range of unique behaviors. Dolphins use a blowhole on top of their heads to breathe. Dolphins communicate with each other by clicking, whistling and other sounds."],
-            ["Frogs are amphibians. They lay their eggs in water. The eggs hatch into a tadpole which lives in water until it metamorphoses into an adult frog. Instead of drinking water, frogs soak it into their body through their skin."],
-            ["Although sharks have a reputation as destructive beasts that attack almost anything that enters their water habitat, the actual number of shark attacks is probably lower than you imagine. If a shark was put into a large swimming pool, it would be able to smell a single drop of blood in the water."],
-            ["Giraffes are the tallest land animals on earth thanks in part to their distinctive necks which alone can reach almost 2 meters in height. A giraffe's habitat is usually found in African savannas, grasslands or open woodlands."],
-            ["Whales are huge, warm-blooded, air breathing mammals that live in the sea. There are many different species including the blue whale, killer whale, humpback whale, orca and minke. Whales love to sing! They use this as a call to mates, a way to communicate and also just for fun!"],
+            ["What is active filter? A filter that uses an amplifier in addition to reactive components to pass or reject selected frequencies."],
+            ["What is alternating current? An electric current that rises to a maximum in one direction, falls back to zero and then rises to a maximum in the opposite direction and then repeats."],
+            ["What is amplifier? A circuit that increases the voltage, current, or power of a signal."],
+            ["What is audio? Relating to frequencies that can be heard by the human ear. Approximately 20 Hz to 20 kHz."],
+            ["What is bistable multivibrator? A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. Also called a latch."],
+            ["Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')."],
         ];
 
         // other
@@ -117,11 +105,11 @@
                                 case 1:
                                     windowsToOpen.push(articleNo); // open that article only
                                     break;
-                                case 5:
-                                    windowsToOpen = fiveWindowCombo[block]; // open the 5 windows specified above
+                                case 3:
+                                    windowsToOpen = threeWindowCombo[block]; // open the 5 windows specified above
                                     break;
                                 case 10:
-                                    windowsToOpen = [1,2,3,4,5,6,7,8,9,10]; // open all 10 windows
+                                    windowsToOpen = [1,2,3,4,5,6]; // open all 10 windows
                                     break;
                                 default:
                                     console.log("windowsToOpen not defined");
